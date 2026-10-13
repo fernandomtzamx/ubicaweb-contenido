@@ -52,5 +52,49 @@ categorias:
     name: Abrir una franquicia
     description: "Regalías, registro, inversión y tipos de franquicia: lo básico antes de firmar."
 
+# Entradas y páginas que pasan a borrador (recuperables). Sus URLs redirigen según docs/redirecciones.yml.
+despublicar:
+  # Blog: fusionadas en su destino
+  - {id: 307, slug: que-ventajas-ofrece-la-franquicia-sobre-otros-negocios}
+  - {id: 306, slug: que-beneficios-tiene-una-franquicia}
+  - {id: 305, slug: que-te-ofrece-una-franquicia}
+  - {id: 301, slug: que-hacer-si-no-llegan-clientes-a-mi-negocio-de-franquicias}
+  - {id: 300, slug: que-hacer-cuando-no-hay-clientes-en-una-franquicia}
+  - {id: 298, slug: como-hacer-una-estrategia-de-marketing-para-franquicias-exitosa}
+  - {id: 297, slug: como-dar-a-conocer-un-producto-ejemplos}
+  - {id: 296, slug: que-debe-tener-un-plan-de-marketing-para-franquicias}
+  - {id: 295, slug: como-hacer-un-plan-de-marketing-para-mi-franquicia-en-10-pasos}
+  - {id: 294, slug: como-hacer-para-tener-clientes-en-mi-franquicia}
+  - {id: 291, slug: que-franquicias-puedo-adquirir-para-un-negocio-rentable}
+  - {id: 290, slug: como-armar-un-franquicia}
+  - {id: 289, slug: cual-es-el-exito-de-las-franquicias}
+  - {id: 288, slug: como-ofrecer-un-producto-en-promocion}
+  - {id: 286, slug: que-es-un-plan-de-marketing-para-franquicias-ejemplo}
+  - {id: 283, slug: como-hacer-un-buen-marketing-para-mi-franquicia}
+  - {id: 282, slug: que-tipo-de-marketing-es-mas-rentable-para-franquicias}
+  - {id: 281, slug: que-es-la-estrategia-digital-de-las-franquicias}
+  - {id: 280, slug: como-se-promociona-una-franquicia}
+  - {id: 140, slug: como-crear-un-plan-de-contenidos-efectivo-para-franquicias}
+  - {id: 138, slug: la-importancia-del-diseno-web-responsivo-para-franquicias}
+  - {id: 137, slug: tendencias-de-marketing-digital-para-franquicias}
+  - {id: 136, slug: como-las-soluciones-digitales-pueden-mejorar-la-comunicacion-con-franquiciatarios}
+  - {id: 130, slug: estrategias-de-contenido-para-mejorar-la-experiencia-del-cliente-en-franquicias}
+  - {id: 129, slug: como-gestionar-la-reputacion-online-de-tu-franquicia}
+  - {id: 125, slug: manteniendo-la-coherencia-de-marca-en-multiples-sitios-web-de-franquiciatarios}
+  - {id: 124, slug: lecciones-de-una-franquicia-que-adopto-el-seo-local-a-tiempo}
+  - {id: 118, slug: herramientas-esenciales-para-la-gestion-digital-de-franquicias}
+  # Páginas reemplazadas y demo del tema
+  - {id: 65, slug: demo, tipo: pages}
+  - {id: 68, slug: saas-2, tipo: pages}
+  - {id: 703, slug: blog-2, tipo: pages}
+  - {id: 609, slug: blog-de-marketing-para-franquicias, tipo: pages}
+  - {id: 704, slug: creative-agency, tipo: pages}
+  - {id: 709, slug: website-design-for-digital-agency, tipo: portfolio}
+  - {id: 705, slug: 10-simple-practices-that-will-help-you-get-1-better-every-day}
+  - {id: 706, slug: 5-uses-of-artificial-intelligence-that-will-blow-your-mind}
+  - {id: 707, slug: this-long-awaited-technology-may-finally-change-the-world}
+  - {id: 708, slug: design-thinking-building-a-design-system-for-an-existing-product}
+  - {id: 710, slug: realistic-3d-model-of-living-room, tipo: portfolio}
+
 # Páginas o entradas a mandar a la papelera, por id y slug (se confirma el slug antes de borrar).
 borrar: []

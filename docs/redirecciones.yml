@@ -1,0 +1,48 @@
+# Redirecciones 301 (ruta vieja: ruta nueva). Las aplica scripts/site_setup.py en el ajuste
+# ubicaweb_redirecciones, que lee el mu-plugin wordpress/mu-plugins/ubicaweb-redirecciones.php.
+
+# Páginas
+"/demo/": "/contacto/"
+"/saas-2/": "/"
+"/blog-2/": "/blog/"
+"/blog-de-marketing-para-franquicias/": "/blog/"
+"/creative-agency/": "/"
+
+# Blog: entradas fusionadas en su destino
+"/que-ventajas-ofrece-la-franquicia-sobre-otros-negocios/": "/cuales-son-las-ventajas-y-desventajas-de-tener-una-franquicia/"
+"/que-beneficios-tiene-una-franquicia/": "/cuales-son-las-ventajas-y-desventajas-de-tener-una-franquicia/"
+"/que-te-ofrece-una-franquicia/": "/cuales-son-las-ventajas-y-desventajas-de-tener-una-franquicia/"
+"/que-hacer-si-no-llegan-clientes-a-mi-negocio-de-franquicias/": "/que-hacer-cuando-las-ventas-son-bajas-en-una-franquicia/"
+"/que-hacer-cuando-no-hay-clientes-en-una-franquicia/": "/que-hacer-cuando-las-ventas-son-bajas-en-una-franquicia/"
+"/como-hacer-una-estrategia-de-marketing-para-franquicias-exitosa/": "/cual-es-la-mejor-estrategia-de-marketing-para-franquicias/"
+"/como-dar-a-conocer-un-producto-ejemplos/": "/estrategias-de-publicidad-online-efectivas-para-franquicias/"
+"/que-debe-tener-un-plan-de-marketing-para-franquicias/": "/como-hacer-un-plan-de-marketing-digital-para-franquicias/"
+"/como-hacer-un-plan-de-marketing-para-mi-franquicia-en-10-pasos/": "/como-hacer-un-plan-de-marketing-digital-para-franquicias/"
+"/como-hacer-para-tener-clientes-en-mi-franquicia/": "/que-hacer-cuando-las-ventas-son-bajas-en-una-franquicia/"
+"/que-franquicias-puedo-adquirir-para-un-negocio-rentable/": "/cuales-son-ejemplos-de-franquicias-mas-rentables-en-mexico/"
+"/como-armar-un-franquicia/": "/cuales-son-los-tipos-de-franquicia/"
+"/cual-es-el-exito-de-las-franquicias/": "/cuales-son-las-ventajas-y-desventajas-de-tener-una-franquicia/"
+"/como-ofrecer-un-producto-en-promocion/": "/estrategias-de-publicidad-online-efectivas-para-franquicias/"
+"/que-es-un-plan-de-marketing-para-franquicias-ejemplo/": "/como-hacer-un-plan-de-marketing-digital-para-franquicias/"
+"/como-hacer-un-buen-marketing-para-mi-franquicia/": "/cual-es-la-mejor-estrategia-de-marketing-para-franquicias/"
+"/que-tipo-de-marketing-es-mas-rentable-para-franquicias/": "/cual-es-la-mejor-estrategia-de-marketing-para-franquicias/"
+"/que-es-la-estrategia-digital-de-las-franquicias/": "/cual-es-la-mejor-estrategia-de-marketing-para-franquicias/"
+"/como-se-promociona-una-franquicia/": "/estrategias-de-publicidad-online-efectivas-para-franquicias/"
+"/como-crear-un-plan-de-contenidos-efectivo-para-franquicias/": "/creacion-de-contenido-de-valor-para-atraer-mas-franquiciatarios/"
+"/la-importancia-del-diseno-web-responsivo-para-franquicias/": "/beneficios-de-una-gestion-centralizada-de-sitios-web-para-franquicias/"
+"/tendencias-de-marketing-digital-para-franquicias/": "/cual-es-la-mejor-estrategia-de-marketing-para-franquicias/"
+"/como-las-soluciones-digitales-pueden-mejorar-la-comunicacion-con-franquiciatarios/": "/innovaciones-tecnologicas-para-la-gestion-de-franquicias-en-la-era-digital/"
+"/estrategias-de-contenido-para-mejorar-la-experiencia-del-cliente-en-franquicias/": "/creacion-de-contenido-de-valor-para-atraer-mas-franquiciatarios/"
+"/como-gestionar-la-reputacion-online-de-tu-franquicia/": "/la-importancia-de-las-resenas-online-para-las-franquicias/"
+"/manteniendo-la-coherencia-de-marca-en-multiples-sitios-web-de-franquiciatarios/": "/beneficios-de-una-gestion-centralizada-de-sitios-web-para-franquicias/"
+"/lecciones-de-una-franquicia-que-adopto-el-seo-local-a-tiempo/": "/la-guia-definitiva-del-seo-local-para-franquicias/"
+"/herramientas-esenciales-para-la-gestion-digital-de-franquicias/": "/innovaciones-tecnologicas-para-la-gestion-de-franquicias-en-la-era-digital/"
+
+# Demo del tema en inglés
+"/": "/blog/"
+"/portfolio/website-design-for-digital-agency/": "/"
+"/10-simple-practices-that-will-help-you-get-1-better-every-day/": "/blog/"
+"/5-uses-of-artificial-intelligence-that-will-blow-your-mind/": "/blog/"
+"/this-long-awaited-technology-may-finally-change-the-world/": "/blog/"
+"/design-thinking-building-a-design-system-for-an-existing-product/": "/blog/"
+"/portfolio/realistic-3d-model-of-living-room/": "/"

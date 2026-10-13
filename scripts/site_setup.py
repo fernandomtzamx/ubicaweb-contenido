@@ -97,6 +97,24 @@ def main():
             errors += 1
             print(f"ERROR categoría {c.get('slug')}: {e}")
 
+    # Despublicar (pasar a borrador, recuperable): entradas fusionadas y contenido demo.
+    for b in cfg.get("despublicar") or []:
+        tipo = b.get("tipo", "posts")
+        try:
+            cur = wp.req("GET", f"{tipo}/{b['id']}", params={"context": "edit"})
+            slug = cur.get("slug") or cur.get("generated_slug", "")
+            if not slug.startswith(b["slug"]):
+                errors += 1
+                print(f"ERROR {tipo}/{b['id']}: el slug es '{slug}', no '{b['slug']}'. No se despublica.")
+                continue
+            if cur.get("status") in ("draft", "trash"):
+                continue
+            wp.req("POST", f"{tipo}/{b['id']}", json={"status": "draft"})
+            print(f"Despublicada: {tipo}/{b['id']} ({slug})")
+        except Exception as e:  # noqa: BLE001
+            errors += 1
+            print(f"ERROR al despublicar {tipo}/{b['id']}: {str(e)[:150]}")
+
     # Borrado a la papelera (recuperable desde wp-admin). Se confirma el slug antes de borrar.
     for b in cfg.get("borrar") or []:
         tipo = b.get("tipo", "pages")
