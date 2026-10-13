@@ -1,7 +1,7 @@
 Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Inventario como soporte (administrator)
-Tipos de contenido: post->posts, page->pages, portfolio->portfolio, metform-entry->metform-entry
+Tipos de contenido: post->posts, page->pages, portfolio->portfolio
   post           720 draft    prueba-de-conexion
   post           501 publish  xml-sitemap
   post           500 publish  visibilidad-local-2
@@ -166,9 +166,4 @@ Tipos de contenido: post->posts, page->pages, portfolio->portfolio, metform-entr
   page           704 publish  creative-agency
   portfolio      709 publish  website-design-for-digital-agency
   portfolio      710 publish  realistic-3d-model-of-living-room
-  metform-entry   718 publish  718
-  metform-entry   717 publish  717
-  metform-entry   716 publish  716
-  metform-entry   715 publish  715
-  metform-entry   254 publish  254
-Inventario: 169 piezas, 2 menús, 12 plugins
+Inventario: 164 piezas, 2 menús, 12 plugins
