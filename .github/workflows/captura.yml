@@ -1,6 +1,6 @@
 name: Capturar HTML
 
-# Guarda el HTML público de las URLs de docs/captura/urls.txt (diagnóstico de tema y SEO).
+# Guarda el HTML público y una captura de pantalla (escritorio y celular) de cada URL de docs/captura/urls.txt.
 on:
   workflow_dispatch:
   push:
@@ -15,14 +15,33 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -q playwright && python -m playwright install --with-deps chromium > /dev/null
       - run: |
-          mkdir -p docs/captura/html
-          n=0
-          while read -r u; do
-            [ -z "$u" ] && continue; n=$((n+1))
-            curl -sL -A "Mozilla/5.0 ubicaweb-captura" "$u" -o "docs/captura/html/$n.html"
-            echo "$n $u" >> docs/captura/html/indice.txt
-          done < docs/captura/urls.txt
+          rm -rf docs/captura/html && mkdir -p docs/captura/html
+          python - <<'PY'
+          from playwright.sync_api import sync_playwright
+          urls = [u.strip() for u in open("docs/captura/urls.txt") if u.strip()]
+          with sync_playwright() as p:
+              b = p.chromium.launch()
+              with open("docs/captura/html/indice.txt", "w") as idx:
+                  for n, u in enumerate(urls, 1):
+                      idx.write(f"{n} {u}\n")
+                      for nombre, w, h in (("escritorio", 1366, 900), ("movil", 390, 844)):
+                          pg = b.new_page(viewport={"width": w, "height": h})
+                          pg.goto(u, wait_until="networkidle", timeout=60000)
+                          pg.wait_for_timeout(2500)
+                          pg.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+                          pg.wait_for_timeout(1500)
+                          pg.evaluate("window.scrollTo(0, 0)")
+                          pg.screenshot(path=f"docs/captura/html/{n}-{nombre}.png", full_page=True)
+                          if nombre == "escritorio":
+                              open(f"docs/captura/html/{n}.html", "w").write(pg.content())
+                          pg.close()
+              b.close()
+          PY
           git config user.name "ubicaweb-bot"; git config user.email "ubicaweb-bot@users.noreply.github.com"
-          git add docs/captura; git commit -m "Captura HTML [skip ci]" || exit 0
+          git add -A docs/captura; git commit -m "Captura HTML [skip ci]" || exit 0
           git pull --rebase -q origin main && git push -q origin HEAD:main
