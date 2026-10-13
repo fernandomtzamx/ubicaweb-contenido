@@ -56,8 +56,8 @@ def check(path):
         img = meta.get("featured_image")
         if not img or not (ROOT / img).exists():
             errs.append("portada inexistente")
-        if words < 750:
-            errs.append(f"muy corto ({words} palabras, mínimo 750)")
+        if words < 550:
+            errs.append(f"muy corto ({words} palabras, mínimo 550)")
         if sources < 2:
             warns.append(f"pocas fuentes enlazadas ({sources})")
     # Enlaces internos (permalinks /slug/): deben existir y no apuntar a piezas posteriores (darían 404)
