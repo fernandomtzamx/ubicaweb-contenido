@@ -5,6 +5,20 @@
 # Página que se muestra como portada (slug). Requiere usuario administrador.
 portada: inicio
 
+# Sin página de entradas del tema: /blog/ es un listado propio (scripts/listados.py).
+pagina_entradas: 0
+
+# Menú principal (id 3 "Principal"; reemplaza al menú demo de Vault en la ubicación primary).
+menu:
+  id: 3
+  ubicacion: primary
+  items:
+    - {titulo: "Servicios", url: "/#servicios"}
+    - {titulo: "Precios", url: "/#precios"}
+    - {titulo: "Blog", url: "/blog/"}
+    - {titulo: "Diccionario SEO local", url: "/diccionario-seo-local/"}
+    - {titulo: "Contacto", url: "/contacto/"}
+
 # Nota al pie de cada entrada. Déjala vacía ("") para no poner ninguna.
 firma_articulo: ""
 

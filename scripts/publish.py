@@ -184,6 +184,11 @@ def nofollow_external(html):
     return _A_TAG.sub(fix, html)
 
 
+def render_landing(html):
+    """Compacta el HTML para que wpautop de WordPress no meta <p> ni <br> entre etiquetas."""
+    return re.sub(r"\s*\n\s*", " ", re.sub(r">\s*\n\s*<", "><", html.strip()))
+
+
 def parse(path):
     text = path.read_text(encoding="utf-8")
     if not text.startswith("---"):
@@ -199,7 +204,8 @@ def parse(path):
     if meta.get("layout") == "landing":
         # Página de diseño propio: el cuerpo ya es HTML. Se compacta en una línea para que
         # wpautop de WordPress no meta <p> ni <br> entre las etiquetas.
-        html = re.sub(r"\s*\n\s*", " ", re.sub(r">\s*\n\s*<", "><", body.strip()))
+        css = (ROOT / "scripts" / "landing.css").read_text(encoding="utf-8")
+        html = render_landing(f"<style>\n{css}</style>\n{body.strip()}")
         return meta, nofollow_external(html)
     html = markdown.markdown(
         body.strip(),

@@ -39,6 +39,33 @@ def main():
             errors += 1
             print(f"ERROR portada: {e}")
 
+    # Página de entradas: 0 = ninguna (el listado del blog es una página propia).
+    if "pagina_entradas" in cfg:
+        try:
+            wp.req("POST", "settings", json={"page_for_posts": int(cfg["pagina_entradas"])})
+            print(f"Página de entradas: {cfg['pagina_entradas']}")
+        except Exception as e:  # noqa: BLE001
+            errors += 1
+            print(f"ERROR página de entradas: {e}")
+
+    # Menú: reemplaza los elementos del menú indicado y lo asigna a su ubicación.
+    menu = cfg.get("menu")
+    if menu:
+        try:
+            mid = int(menu["id"])
+            if menu.get("ubicacion"):
+                wp.req("POST", f"menus/{mid}", json={"locations": [menu["ubicacion"]]})
+            viejos = wp.req("GET", "menu-items", params={"menus": mid, "per_page": 100, "context": "edit"})
+            for it in viejos:
+                wp.req("DELETE", f"menu-items/{it['id']}", params={"force": "true"})
+            for i, it in enumerate(menu.get("items") or [], start=1):
+                wp.req("POST", "menu-items", json={"title": it["titulo"], "url": it["url"], "menus": mid,
+                                                   "menu_order": i, "status": "publish", "type": "custom"})
+            print(f"Menú {mid}: {len(menu.get('items') or [])} elementos, ubicación {menu.get('ubicacion')}")
+        except Exception as e:  # noqa: BLE001
+            errors += 1
+            print(f"ERROR menú: {e}")
+
     for c in cfg.get("categorias") or []:
         try:
             found = wp.req("GET", "categories", params={"slug": c["slug"]})
