@@ -1,8 +1,8 @@
-fecha: 2026-10-13T19:44:04Z
-commit: 17db33461e611aa2bf40546d3e2be152f00dd6ca
+fecha: 2026-10-13T21:13:23Z
+commit: 5a00c770a1263fa462b5204f8d084e99b3cd83e1
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/38457107134
+run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/38468872526
 ---
 WP_URL: presente
 WP_USER: presente
@@ -12,7 +12,7 @@ Métodos de autenticación anunciados: application-passwords
 Portada: inicio (id 722)
 Página de entradas: blog
 Menú 3: 5 elementos, ubicación primary
-Redirecciones: 40
+Redirecciones: 39
 Categoría actualizada: sitios-web-para-franquicias -> Sitios web
 Categoría actualizada: seo-local-para-franquicias -> SEO local
 Categoría actualizada: publicidad-digital-para-franquicias -> Publicidad digital
