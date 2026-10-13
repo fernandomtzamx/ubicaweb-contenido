@@ -1,0 +1,21 @@
+# Configuración del sitio que el agente puede aplicar con rol Editor.
+# Se aplica con: Actions > Publicar en WordPress > Run workflow > setup
+# (menús, tagline, header y footer requieren administrador: se hacen a mano).
+
+# Nota al pie de cada entrada. Déjala vacía ("") para no poner ninguna.
+firma_articulo: ""
+
+# Perfil público del usuario del agente (aiagent). Descomenta y ajusta si quieres firmar con él.
+# autor:
+#   first_name: ""
+#   last_name: ""
+#   name: ""
+#   nickname: ""
+#   description: ""
+
+# Categorías del blog: se crean o actualizan con nombre y descripción.
+# Pendiente de definir los pilares editoriales de UbicaWeb.
+categorias: []
+
+# Páginas o entradas a mandar a la papelera, por id y slug (se confirma el slug antes de borrar).
+borrar: []
