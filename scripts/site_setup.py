@@ -73,6 +73,10 @@ def main():
     if red_path.exists():
         import json
         mapa = {str(k): str(v) for k, v in (yaml.safe_load(red_path.read_text(encoding="utf-8")) or {}).items()}
+        # Candado: la portada y rutas vacías nunca se redirigen.
+        for k in [k for k in mapa if k.strip("/") == ""]:
+            print(f"Aviso: se ignora la redirección de '{k}' (es la portada)")
+            mapa.pop(k)
         try:
             res = wp.req("POST", "settings", json={"ubicaweb_redirecciones": json.dumps(mapa, ensure_ascii=False)})
             if "ubicaweb_redirecciones" in res:
