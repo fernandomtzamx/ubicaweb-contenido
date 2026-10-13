@@ -156,14 +156,14 @@ Tipos de contenido: post->posts, page->pages, portfolio->portfolio
   post           706 publish  5-uses-of-artificial-intelligence-that-will-blow-your-mind
   post           707 publish  this-long-awaited-technology-may-finally-change-the-world
   post           708 publish  design-thinking-building-a-design-system-for-an-existing-product
-  page           609 publish  blog-de-marketing-para-franquicias
+  page           730 publish  contacto
+  page           722 publish  inicio
   page           502 publish  diccionario-seo-local
   page             3 publish  privacidad
-  page            64 publish  blog
-  page            65 publish  demo
-  page            68 publish  saas-2
-  page           703 publish  blog-2
-  page           704 publish  creative-agency
+  page           703 publish  blog
   portfolio      709 publish  website-design-for-digital-agency
   portfolio      710 publish  realistic-3d-model-of-living-room
-Inventario: 164 piezas, 2 menús, 12 plugins
+Inventario: 161 piezas, 2 menús, 12 plugins
+Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
+Métodos de autenticación anunciados: application-passwords
+Exportadas: 59
