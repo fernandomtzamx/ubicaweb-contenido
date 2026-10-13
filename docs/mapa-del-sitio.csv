@@ -1,0 +1,172 @@
+id,tipo,seccion,url_actual,titulo,clics_12m,impresiones_12m,posicion_media,palabras,accion,destino,prioridad,nota
+68,page,Home,/saas-2/,Inicio,0,0,,373,Redirigir 301,/,Alta,Su contenido en español es la base del nuevo home en /. Reescribir copy; quitar precios y testimonios sin respaldo.
+,page,Home,,,,,,,Crear,/,Alta,"Nuevo home: promesa para marcas con muchas sucursales, 3 servicios, proceso, prueba, FAQ y CTA a diagnóstico."
+,page,Servicios,,,,,,,Crear,/servicios/,Alta,"Hub de servicios: cómo encajan sitios, SEO local y publicidad para una red de ubicaciones."
+,page,Servicios,,,,,,,Crear,/servicios/sitios-web-para-franquicias/,Alta,Sitio central más páginas por sucursal administradas desde un solo lugar.
+,page,Servicios,,,,,,,Crear,/servicios/seo-local-para-franquicias/,Alta,"Fichas de Google de todas las sucursales, NAP, reseñas y páginas locales."
+,page,Servicios,,,,,,,Crear,/servicios/publicidad-digital-para-franquicias/,Alta,Campañas locales por sucursal con presupuesto y reporte de la red.
+65,page,Contacto,/demo/,Agenda una Demo,0,42,4.0,56,Redirigir 301,/contacto/,Alta,Nueva página /contacto/ con diagnóstico y formulario de MetForm reutilizado.
+,page,Contacto,,,,,,,Crear,/contacto/,Alta,"Formulario de diagnóstico, WhatsApp y qué pasa después de enviarlo."
+,page,Nosotros,,,,,,,Crear,/nosotros/,Media,"Quiénes somos, Publi2.0 detrás, cómo trabajamos."
+313,post,Blog,/donde-se-registran-las-franquicias-en-mexico/,¿Dónde se registran las franquicias en México?,7,1340,13.5,737,Conservar y reescribir,/donde-se-registran-las-franquicias-en-mexico/,Alta,"La página con más impresiones (1,340). Actualizar datos del registro y título para mejorar CTR."
+311,post,Blog,/que-son-las-regalias-en-una-franquicia/,¿Qué son las regalías en una franquicia?,0,932,14.3,1160,Conservar y reescribir,/que-son-las-regalias-en-una-franquicia/,Alta,932 impresiones en posición 14 sin clics: reescribir título y respuesta directa arriba para captar el clic.
+287,post,Blog,/quien-paga-la-publicidad-en-una-franquicia/,¿Quién paga la publicidad en una franquicia?,9,326,8.4,867,Conservar y reescribir,/quien-paga-la-publicidad-en-una-franquicia/,Alta,La que más clics trae. Puente natural a publicidad digital para franquicias.
+120,post,Blog,/estrategias-de-publicidad-online-efectivas-para-franquicias/,Estrategias de publicidad online efectivas para franquicias.,0,118,38.8,725,Conservar y reescribir,/estrategias-de-publicidad-online-efectivas-para-franquicias/,Media,
+121,post,Blog,/email-marketing-la-herramienta-subestimada-para-la-gestion-de-franquicias/,Email marketing: la herramienta subestimada para la gestión de franquicias.,1,61,15.8,741,Conservar y reescribir,/email-marketing-la-herramienta-subestimada-para-la-gestion-de-franquicias/,Media,
+64,page,Blog,/blog/,Blog de Marketing para Franquicias,0,36,4.6,0,Conservar y reescribir,/blog/,Media,Debe ser la página de entradas (hoy lo es /blog-2/). Índice por categoría de servicio.
+609,page,Blog,/blog-de-marketing-para-franquicias/,Blog de Marketing para Franquicias,0,2,10.0,654,Redirigir 301,/blog/,Media,Duplica el índice del blog con Elementor.
+703,page,Blog,/blog-2/,Blog,0,2,7.0,355,Redirigir 301,/blog/,Media,Hoy es la página de entradas; se reasigna a /blog/.
+312,post,Blog,/cuales-son-las-ventajas-y-desventajas-de-tener-una-franquicia/,¿Cuáles son las ventajas y desventajas de tener una franquicia?,0,0,,827,Conservar y reescribir,/cuales-son-las-ventajas-y-desventajas-de-tener-una-franquicia/,Normal,"Intención de quien quiere comprar una franquicia, no de la marca: puente explícito hacia los servicios para la red."
+310,post,Blog,/cuales-son-los-tipos-de-franquicia/,¿Cuáles son los tipos de franquicia?,0,0,,856,Conservar y reescribir,/cuales-son-los-tipos-de-franquicia/,Normal,"Intención de quien quiere comprar una franquicia, no de la marca: puente explícito hacia los servicios para la red."
+309,post,Blog,/cuanto-se-invierte-en-una-franquicia/,¿Cuánto se invierte en una franquicia?,0,0,,1055,Conservar y reescribir,/cuanto-se-invierte-en-una-franquicia/,Normal,"Intención de quien quiere comprar una franquicia, no de la marca: puente explícito hacia los servicios para la red."
+308,post,Blog,/cuales-son-ejemplos-de-franquicias-mas-rentables-en-mexico/,¿Cuáles son ejemplos de franquicias más rentables en México?,0,0,,799,Conservar y reescribir,/cuales-son-ejemplos-de-franquicias-mas-rentables-en-mexico/,Normal,"Intención de quien quiere comprar una franquicia, no de la marca: puente explícito hacia los servicios para la red."
+307,post,Blog,/que-ventajas-ofrece-la-franquicia-sobre-otros-negocios/,¿Qué ventajas ofrece la franquicia sobre otros negocios?,0,0,,947,Fusionar y redirigir 301,/cuales-son-las-ventajas-y-desventajas-de-tener-una-franquicia/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+306,post,Blog,/que-beneficios-tiene-una-franquicia/,¿Qué beneficios tiene una franquicia?,0,0,,993,Fusionar y redirigir 301,/cuales-son-las-ventajas-y-desventajas-de-tener-una-franquicia/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+305,post,Blog,/que-te-ofrece-una-franquicia/,¿Que te ofrece una franquicia?,0,0,,788,Fusionar y redirigir 301,/cuales-son-las-ventajas-y-desventajas-de-tener-una-franquicia/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+304,post,Blog,/que-es-generar-leads-y-como-lo-hago-para-mi-franquicia/,¿Qué es generar leads y cómo lo hago para mi franquicia?,0,0,,875,Conservar y reescribir,/que-es-generar-leads-y-como-lo-hago-para-mi-franquicia/,Normal,
+303,post,Blog,/que-significa-la-palabra-branding-en-franquicias/,¿Qué significa la palabra branding en franquicias?,0,0,,961,Conservar y reescribir,/que-significa-la-palabra-branding-en-franquicias/,Normal,
+302,post,Blog,/cuales-son-las-7-p-de-la-mercadotecnia-aplicado-a-franquicias/,¿Cuáles son las 7 P de la mercadotecnia aplicado a franquicias?,0,0,,986,Conservar y reescribir,/cuales-son-las-7-p-de-la-mercadotecnia-aplicado-a-franquicias/,Normal,
+301,post,Blog,/que-hacer-si-no-llegan-clientes-a-mi-negocio-de-franquicias/,¿Qué hacer si no llegan clientes a mi negocio de franquicias?,0,0,,876,Fusionar y redirigir 301,/que-hacer-cuando-las-ventas-son-bajas-en-una-franquicia/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+300,post,Blog,/que-hacer-cuando-no-hay-clientes-en-una-franquicia/,¿Qué hacer cuando no hay clientes en una franquicia?,0,0,,849,Fusionar y redirigir 301,/que-hacer-cuando-las-ventas-son-bajas-en-una-franquicia/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+299,post,Blog,/como-hacer-un-plan-de-marketing-digital-para-franquicias/,¿Cómo hacer un plan de marketing digital para franquicias?,0,0,,897,Conservar y reescribir,/como-hacer-un-plan-de-marketing-digital-para-franquicias/,Normal,"Intención de quien quiere comprar una franquicia, no de la marca: puente explícito hacia los servicios para la red."
+298,post,Blog,/como-hacer-una-estrategia-de-marketing-para-franquicias-exitosa/,¿Cómo hacer una estrategia de marketing para franquicias exitosa?,0,0,,820,Fusionar y redirigir 301,/cual-es-la-mejor-estrategia-de-marketing-para-franquicias/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+297,post,Blog,/como-dar-a-conocer-un-producto-ejemplos/,¿Cómo dar a conocer un producto ejemplos?,0,0,,975,Fusionar y redirigir 301,/estrategias-de-publicidad-online-efectivas-para-franquicias/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+296,post,Blog,/que-debe-tener-un-plan-de-marketing-para-franquicias/,¿Qué debe tener un plan de marketing para franquicias?,0,0,,906,Fusionar y redirigir 301,/como-hacer-un-plan-de-marketing-digital-para-franquicias/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+295,post,Blog,/como-hacer-un-plan-de-marketing-para-mi-franquicia-en-10-pasos/,¿Cómo hacer un plan de marketing para mi franquicia en 10 pasos?,0,0,,986,Fusionar y redirigir 301,/como-hacer-un-plan-de-marketing-digital-para-franquicias/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+294,post,Blog,/como-hacer-para-tener-clientes-en-mi-franquicia/,¿Cómo hacer para tener clientes en mi franquicia?,0,0,,766,Fusionar y redirigir 301,/que-hacer-cuando-las-ventas-son-bajas-en-una-franquicia/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+293,post,Blog,/cuanto-dinero-hay-que-invertir-en-marketing-para-una-franquicia/,¿Cuánto dinero hay que invertir en marketing para una franquicia?,0,0,,810,Conservar y reescribir,/cuanto-dinero-hay-que-invertir-en-marketing-para-una-franquicia/,Normal,
+292,post,Blog,/como-hacer-marketing-para-mi-franquicia-con-poco-dinero/,¿Cómo hacer marketing para mi franquicia con poco dinero?,0,0,,806,Conservar y reescribir,/como-hacer-marketing-para-mi-franquicia-con-poco-dinero/,Normal,
+291,post,Blog,/que-franquicias-puedo-adquirir-para-un-negocio-rentable/,¿Qué franquicias puedo adquirir para un negocio rentable?,0,0,,968,Fusionar y redirigir 301,/cuales-son-ejemplos-de-franquicias-mas-rentables-en-mexico/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+290,post,Blog,/como-armar-un-franquicia/,¿Cómo armar un franquicia?,0,0,,807,Fusionar y redirigir 301,/cuales-son-los-tipos-de-franquicia/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+289,post,Blog,/cual-es-el-exito-de-las-franquicias/,¿Cuál es el éxito de las franquicias?,0,0,,848,Fusionar y redirigir 301,/cuales-son-las-ventajas-y-desventajas-de-tener-una-franquicia/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+288,post,Blog,/como-ofrecer-un-producto-en-promocion/,¿Cómo ofrecer un producto en promocion?,0,0,,676,Fusionar y redirigir 301,/estrategias-de-publicidad-online-efectivas-para-franquicias/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+286,post,Blog,/que-es-un-plan-de-marketing-para-franquicias-ejemplo/,¿Qué es un plan de marketing para franquicias ejemplo?,0,0,,886,Fusionar y redirigir 301,/como-hacer-un-plan-de-marketing-digital-para-franquicias/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+285,post,Blog,/que-hacer-cuando-las-ventas-son-bajas-en-una-franquicia/,¿Qué hacer cuando las ventas son bajas en una franquicia?,0,0,,853,Conservar y reescribir,/que-hacer-cuando-las-ventas-son-bajas-en-una-franquicia/,Normal,"Intención de quien quiere comprar una franquicia, no de la marca: puente explícito hacia los servicios para la red."
+284,post,Blog,/cual-es-la-mejor-estrategia-de-marketing-para-franquicias/,¿Cuál es la mejor estrategia de marketing para franquicias?,0,0,,969,Conservar y reescribir,/cual-es-la-mejor-estrategia-de-marketing-para-franquicias/,Normal,
+283,post,Blog,/como-hacer-un-buen-marketing-para-mi-franquicia/,¿Cómo hacer un buen marketing para mi franquicia?,0,0,,860,Fusionar y redirigir 301,/cual-es-la-mejor-estrategia-de-marketing-para-franquicias/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+282,post,Blog,/que-tipo-de-marketing-es-mas-rentable-para-franquicias/,¿Qué tipo de marketing es más rentable para franquicias?,0,0,,838,Fusionar y redirigir 301,/cual-es-la-mejor-estrategia-de-marketing-para-franquicias/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+281,post,Blog,/que-es-la-estrategia-digital-de-las-franquicias/,¿Qué es la estrategia digital de las franquicias?,0,0,,956,Fusionar y redirigir 301,/cual-es-la-mejor-estrategia-de-marketing-para-franquicias/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+280,post,Blog,/como-se-promociona-una-franquicia/,¿Cómo se promociona una franquicia?,0,0,,775,Fusionar y redirigir 301,/estrategias-de-publicidad-online-efectivas-para-franquicias/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+143,post,Blog,/innovaciones-tecnologicas-para-la-gestion-de-franquicias-en-la-era-digital/,Innovaciones tecnológicas para la gestión de franquicias en la era digital.,0,0,,780,Conservar y reescribir,/innovaciones-tecnologicas-para-la-gestion-de-franquicias-en-la-era-digital/,Normal,
+142,post,Blog,/estrategias-de-retencion-de-clientes-para-franquicias/,Estrategias de retención de clientes para franquicias.,0,0,,934,Conservar y reescribir,/estrategias-de-retencion-de-clientes-para-franquicias/,Normal,
+141,post,Blog,/la-importancia-de-la-velocidad-de-carga-en-los-sitios-web-de-franquicias/,La importancia de la velocidad de carga en los sitios web de franquicias.,0,0,,953,Conservar y reescribir,/la-importancia-de-la-velocidad-de-carga-en-los-sitios-web-de-franquicias/,Normal,
+140,post,Blog,/como-crear-un-plan-de-contenidos-efectivo-para-franquicias/,Cómo crear un plan de contenidos efectivo para franquicias.,0,0,,765,Fusionar y redirigir 301,/creacion-de-contenido-de-valor-para-atraer-mas-franquiciatarios/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+139,post,Blog,/seo-vs-sem-que-es-mejor-para-tu-franquicia/,SEO vs. SEM: ¿Qué es mejor para tu franquicia?,0,0,,924,Conservar y reescribir,/seo-vs-sem-que-es-mejor-para-tu-franquicia/,Normal,
+138,post,Blog,/la-importancia-del-diseno-web-responsivo-para-franquicias/,La importancia del diseño web responsivo para franquicias.,0,0,,837,Fusionar y redirigir 301,/beneficios-de-una-gestion-centralizada-de-sitios-web-para-franquicias/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+137,post,Blog,/tendencias-de-marketing-digital-para-franquicias/,Tendencias de marketing digital para franquicias.,0,0,,901,Fusionar y redirigir 301,/cual-es-la-mejor-estrategia-de-marketing-para-franquicias/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+136,post,Blog,/como-las-soluciones-digitales-pueden-mejorar-la-comunicacion-con-franquiciatarios/,Cómo las soluciones digitales pueden mejorar la comunicación con franquiciatarios.,0,0,,865,Fusionar y redirigir 301,/innovaciones-tecnologicas-para-la-gestion-de-franquicias-en-la-era-digital/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+135,post,Blog,/integracion-de-herramientas-crm-para-una-gestion-eficiente-de-franquicias/,Integración de herramientas CRM para una gestión eficiente de franquicias.,0,0,,718,Conservar y reescribir,/integracion-de-herramientas-crm-para-una-gestion-eficiente-de-franquicias/,Normal,
+131,post,Blog,/la-revolucion-del-chatbot-en-la-atencion-al-cliente-de-franquicias/,La revolución del chatbot en la atención al cliente de franquicias.,0,0,,858,Conservar y reescribir,/la-revolucion-del-chatbot-en-la-atencion-al-cliente-de-franquicias/,Normal,
+130,post,Blog,/estrategias-de-contenido-para-mejorar-la-experiencia-del-cliente-en-franquicias/,Estrategias de contenido para mejorar la experiencia del cliente en franquicias.,0,0,,948,Fusionar y redirigir 301,/creacion-de-contenido-de-valor-para-atraer-mas-franquiciatarios/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+129,post,Blog,/como-gestionar-la-reputacion-online-de-tu-franquicia/,Cómo gestionar la reputación online de tu franquicia.,0,0,,828,Fusionar y redirigir 301,/la-importancia-de-las-resenas-online-para-las-franquicias/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+128,post,Blog,/la-importancia-de-las-resenas-online-para-las-franquicias/,La importancia de las reseñas online para las franquicias.,0,0,,820,Conservar y reescribir,/la-importancia-de-las-resenas-online-para-las-franquicias/,Normal,
+127,post,Blog,/medicion-del-impacto-de-tus-estrategias-de-marketing-en-franquicias/,Medición del impacto de tus estrategias de marketing en franquicias.,0,0,,908,Conservar y reescribir,/medicion-del-impacto-de-tus-estrategias-de-marketing-en-franquicias/,Normal,
+126,post,Blog,/formacion-en-marketing-digital-clave-para-el-exito-de-franquiciatarios/,Formación en marketing digital: clave para el éxito de franquiciatarios.,0,0,,934,Conservar y reescribir,/formacion-en-marketing-digital-clave-para-el-exito-de-franquiciatarios/,Normal,
+125,post,Blog,/manteniendo-la-coherencia-de-marca-en-multiples-sitios-web-de-franquiciatarios/,Manteniendo la coherencia de marca en múltiples sitios web de franquiciatarios.,0,0,,917,Fusionar y redirigir 301,/beneficios-de-una-gestion-centralizada-de-sitios-web-para-franquicias/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+124,post,Blog,/lecciones-de-una-franquicia-que-adopto-el-seo-local-a-tiempo/,Lecciones de una franquicia que adoptó el SEO local a tiempo.,0,0,,849,Fusionar y redirigir 301,/la-guia-definitiva-del-seo-local-para-franquicias/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+123,post,Blog,/caso-de-exito-transformacion-digital-de-una-franquicia-lider/,Caso de éxito: Transformación digital de una franquicia líder.,0,0,,827,Conservar y reescribir,/caso-de-exito-transformacion-digital-de-una-franquicia-lider/,Normal,
+122,post,Blog,/creacion-de-contenido-de-valor-para-atraer-mas-franquiciatarios/,Creación de contenido de valor para atraer más franquiciatarios.,0,0,,929,Conservar y reescribir,/creacion-de-contenido-de-valor-para-atraer-mas-franquiciatarios/,Normal,
+119,post,Blog,/como-el-analisis-de-datos-puede-transformar-tu-cadena-de-franquicias/,Cómo el análisis de datos puede transformar tu cadena de franquicias.,0,0,,826,Conservar y reescribir,/como-el-analisis-de-datos-puede-transformar-tu-cadena-de-franquicias/,Normal,
+118,post,Blog,/herramientas-esenciales-para-la-gestion-digital-de-franquicias/,Herramientas esenciales para la gestión digital de franquicias.,0,0,,658,Fusionar y redirigir 301,/innovaciones-tecnologicas-para-la-gestion-de-franquicias-en-la-era-digital/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+117,post,Blog,/beneficios-de-una-gestion-centralizada-de-sitios-web-para-franquicias/,Beneficios de una gestión centralizada de sitios web para franquicias.,0,0,,773,Conservar y reescribir,/beneficios-de-una-gestion-centralizada-de-sitios-web-para-franquicias/,Normal,
+116,post,Blog,/la-guia-definitiva-del-seo-local-para-franquicias/,La guía definitiva del SEO local para franquicias.,0,0,,714,Conservar y reescribir,/la-guia-definitiva-del-seo-local-para-franquicias/,Normal,
+447,post,Diccionario,/google-local-guide/,Google Local Guide,0,1147,35.7,1497,Conservar y reescribir,/google-local-guide/,Alta,Mucho volumen pero intención de consumidor (programa Local Guides). Reorientar a qué significa para las fichas de tus sucursales.
+500,post,Diccionario,/visibilidad-local-2/,Visibilidad Local,0,327,23.8,1593,"Conservar, reescribir y cambiar slug",/visibilidad-local/,Alta,El slug con -2 pasa a /visibilidad-local/; 301 de la URL vieja.
+466,post,Diccionario,/local-pack/,Local Pack,1,267,21.9,1660,Conservar y reescribir,/local-pack/,Media,
+501,post,Diccionario,/xml-sitemap/,Xml Sitemap,0,60,22.7,1466,Conservar y reescribir,/xml-sitemap/,Media,
+492,post,Diccionario,/resenas-verificadas/,Resenas Verificadas,1,48,8.1,1313,Conservar y reescribir,/resenas-verificadas/,Media,
+414,post,Diccionario,/apple-business-connect/,Apple Business Connect,0,46,38.5,1203,Conservar y reescribir,/apple-business-connect/,Media,
+486,post,Diccionario,/prominencia/,Prominencia,0,23,6.0,1517,Conservar y reescribir,/prominencia/,Normal,
+494,post,Diccionario,/domain-authority-2/,Domain Authority,2,12,9.2,1103,"Conservar, reescribir y cambiar slug",/domain-authority/,Normal,El slug con -2 pasa a /domain-authority/; 301 de la URL vieja.
+498,post,Diccionario,/visibilidad-local/,Visibilidad Local,0,10,9.2,1526,Fusionar,/visibilidad-local/,Normal,"Duplicado: su contenido pasa a la versión -2, que después toma esta misma URL. Esta entrada se borra."
+475,post,Diccionario,/nap/,Nap,0,8,4.2,1492,Conservar y reescribir,/nap/,Normal,
+495,post,Diccionario,/third-party-reviews/,Third Party Reviews,0,3,6.0,1205,Conservar y reescribir,/third-party-reviews/,Normal,
+502,page,Diccionario,/diccionario-seo-local/,Diccionario SEO Local,0,2,9.0,777,Conservar y reescribir,/diccionario-seo-local/,Normal,Hub del diccionario: índice A-Z enlazado a cada término.
+497,post,Diccionario,/user-interface/,User Interface,0,1,6.0,1450,Fusionar y redirigir 301,/user-experience/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+499,post,Diccionario,/white-hat-seo/,White Hat Seo,0,0,,1297,Conservar y reescribir,/white-hat-seo/,Normal,
+496,post,Diccionario,/user-experience/,User Experience,0,0,,1876,Conservar y reescribir,/user-experience/,Normal,
+493,post,Diccionario,/directorios-locales-2/,Directorios Locales,0,0,,1343,Fusionar y redirigir 301,/directorios-locales/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+491,post,Diccionario,/resenas-locales/,Resenas Locales,0,0,,1331,Fusionar y redirigir 301,/resenas-de-google-maps/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+490,post,Diccionario,/resenas-de-google-maps/,Resenas De Google Maps,0,0,,1368,Conservar y reescribir,/resenas-de-google-maps/,Normal,
+489,post,Diccionario,/relevancia/,Relevancia,0,0,,1207,Conservar y reescribir,/relevancia/,Normal,
+488,post,Diccionario,/ranking/,Ranking,0,0,,1591,Conservar y reescribir,/ranking/,Normal,
+487,post,Diccionario,/proximidad/,Proximidad,0,0,,1649,Conservar y reescribir,/proximidad/,Normal,
+485,post,Diccionario,/promedio-de-resenas/,Promedio De Resenas,0,0,,1761,Fusionar y redirigir 301,/resenas-de-google-maps/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+484,post,Diccionario,/places-topics/,Places Topics,0,0,,1540,Conservar y reescribir,/places-topics/,Normal,
+483,post,Diccionario,/place-id/,Place Id,0,0,,1387,Conservar y reescribir,/place-id/,Normal,
+482,post,Diccionario,/pilares-del-seo-local/,Pilares Del Seo Local,0,0,,1233,Conservar y reescribir,/pilares-del-seo-local/,Normal,
+481,post,Diccionario,/perfil-de-empresa-local-en-google/,Perfil De Empresa Local En Google,0,0,,1658,Fusionar y redirigir 301,/google-business-profile/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+480,post,Diccionario,/penalizaciones-de-google/,Penalizaciones De Google,0,0,,1557,Conservar y reescribir,/penalizaciones-de-google/,Normal,
+479,post,Diccionario,/palabras-clave-locales/,Palabras Clave Locales,0,0,,1285,Conservar y reescribir,/palabras-clave-locales/,Normal,
+478,post,Diccionario,/paginas-de-aterrizaje/,Paginas De Aterrizaje,0,0,,1570,Fusionar y redirigir 301,/local-landing-page/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+477,post,Diccionario,/optimizacion-de-imagenes/,Optimizacion De Imagenes,0,0,,1025,Conservar y reescribir,/optimizacion-de-imagenes/,Normal,
+476,post,Diccionario,/page-speed/,Page Speed,0,0,,1468,Conservar y reescribir,/page-speed/,Normal,
+474,post,Diccionario,/mobile-local-search/,Mobile Local Search,0,0,,1322,Fusionar y redirigir 301,/busquedas-locales-en-dispositivos-moviles/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+473,post,Diccionario,/mobile-friendly/,Mobile Friendly,0,0,,1878,Conservar y reescribir,/mobile-friendly/,Normal,
+472,post,Diccionario,/metadescripcion/,Metadescripcion,0,0,,1028,Fusionar y redirigir 301,/metadatos/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+471,post,Diccionario,/metadatos/,Metadatos,0,0,,1479,Conservar y reescribir,/metadatos/,Normal,
+470,post,Diccionario,/map-pack/,Map Pack,0,0,,1201,Fusionar y redirigir 301,/local-pack/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+469,post,Diccionario,/long-tail-keywords/,Long Tail Keywords,0,0,,1467,Conservar y reescribir,/long-tail-keywords/,Normal,
+468,post,Diccionario,/local-service-ads/,Local Service Ads,0,0,,1410,Conservar y reescribir,/local-service-ads/,Normal,
+467,post,Diccionario,/local-seo/,Local Seo,0,0,,1273,Fusionar y redirigir 301,/pilares-del-seo-local/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+465,post,Diccionario,/local-landing-page/,Local Landing Page,0,0,,1477,Conservar y reescribir,/local-landing-page/,Normal,
+464,post,Diccionario,/local-inventory-ads/,Local Inventory Ads,0,0,,1445,Conservar y reescribir,/local-inventory-ads/,Normal,
+463,post,Diccionario,/local-finder/,Local Finder,0,0,,1710,Fusionar y redirigir 301,/local-pack/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+462,post,Diccionario,/linkbuilding/,Linkbuilding,0,0,,1494,Conservar y reescribir,/linkbuilding/,Normal,
+461,post,Diccionario,/indexacion/,Indexacion,0,0,,1199,Conservar y reescribir,/indexacion/,Normal,
+460,post,Diccionario,/https/,Https,0,0,,1416,Conservar y reescribir,/https/,Normal,
+459,post,Diccionario,/grey-hat-seo/,Grey Hat Seo,0,0,,992,Fusionar y redirigir 301,/white-hat-seo/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+458,post,Diccionario,/google-trends/,Google Trends,0,0,,1169,Conservar y reescribir,/google-trends/,Normal,
+457,post,Diccionario,/google-street-view-trusted/,Google Street View Trusted,0,0,,1466,Conservar y reescribir,/google-street-view-trusted/,Normal,
+456,post,Diccionario,/google-search-console/,Google Search Console,0,0,,1741,Conservar y reescribir,/google-search-console/,Normal,
+455,post,Diccionario,/google-q-and-a/,Google Q And A,0,0,,1251,Conservar y reescribir,/google-q-and-a/,Normal,
+454,post,Diccionario,/google-posts/,Google Posts,0,0,,1228,Conservar y reescribir,/google-posts/,Normal,
+453,post,Diccionario,/google-places/,Google Places,0,0,,1673,Fusionar y redirigir 301,/google-business-profile/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+452,post,Diccionario,/google-my-business/,Google My Business,0,0,,1267,Fusionar y redirigir 301,/google-business-profile/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+451,post,Diccionario,/google-maps-street-view/,Google Maps Street View,0,0,,1287,Fusionar y redirigir 301,/google-street-view-trusted/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+450,post,Diccionario,/google-maps-ranking/,Google Maps Ranking,0,0,,1416,Fusionar y redirigir 301,/ranking/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+449,post,Diccionario,/google-maps/,Google Maps,0,0,,1770,Conservar y reescribir,/google-maps/,Normal,
+448,post,Diccionario,/google-map-maker/,Google Map Maker,0,0,,1057,Fusionar y redirigir 301,/google-maps/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+446,post,Diccionario,/google-lens/,Google Lens,0,0,,1250,Conservar y reescribir,/google-lens/,Normal,
+445,post,Diccionario,/google-business-profile/,Google Business Profile,0,0,,1738,Conservar y reescribir,/google-business-profile/,Normal,
+444,post,Diccionario,/google-analytics/,Google Analytics,0,0,,1263,Conservar y reescribir,/google-analytics/,Normal,
+443,post,Diccionario,/gestion-de-reputacion/,Gestion De Reputacion,0,0,,1188,Conservar y reescribir,/gestion-de-reputacion/,Normal,
+442,post,Diccionario,/geo-targeting/,Geo Targeting,0,0,,1075,Conservar y reescribir,/geo-targeting/,Normal,
+441,post,Diccionario,/geotagging/,Geotagging,0,0,,1471,Conservar y reescribir,/geotagging/,Normal,
+440,post,Diccionario,/geolocalizacion/,Geolocalizacion,0,0,,1219,Conservar y reescribir,/geolocalizacion/,Normal,
+439,post,Diccionario,/fichas-sin-reclamar/,Fichas Sin Reclamar,0,0,,1433,Conservar y reescribir,/fichas-sin-reclamar/,Normal,
+438,post,Diccionario,/featured-snippet/,Featured Snippet,0,0,,1530,Conservar y reescribir,/featured-snippet/,Normal,
+437,post,Diccionario,/fake-reviews/,Fake Reviews,0,0,,1498,Conservar y reescribir,/fake-reviews/,Normal,
+436,post,Diccionario,/estructura-de-citaciones/,Estructura De Citaciones,0,0,,1644,Fusionar y redirigir 301,/citaciones-locales/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+435,post,Diccionario,/estrategia-de-contenido-local/,Estrategia De Contenido Local,0,0,,1098,Conservar y reescribir,/estrategia-de-contenido-local/,Normal,
+434,post,Diccionario,/domain-authority/,Domain Authority,0,0,,1490,Fusionar,/domain-authority/,Normal,"Duplicado: su contenido pasa a la versión -2, que después toma esta misma URL. Esta entrada se borra."
+433,post,Diccionario,/directorios-locales/,Directorios Locales,0,0,,1922,Conservar y reescribir,/directorios-locales/,Normal,
+432,post,Diccionario,/coherencia-nap/,Coherencia Nap,0,0,,1275,Fusionar y redirigir 301,/nap/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+431,post,Diccionario,/citaciones-locales/,Citaciones Locales,0,0,,1221,Conservar y reescribir,/citaciones-locales/,Normal,
+430,post,Diccionario,/busquedas-por-voz/,Busquedas Por Voz,0,0,,1378,Conservar y reescribir,/busquedas-por-voz/,Normal,
+429,post,Diccionario,/actualizaciones-de-google/,Actualizaciones De Google,0,0,,1147,Conservar y reescribir,/actualizaciones-de-google/,Normal,
+428,post,Diccionario,/busquedas-moviles/,Busquedas Moviles,0,0,,1429,Fusionar y redirigir 301,/busquedas-locales-en-dispositivos-moviles/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+427,post,Diccionario,/busquedas-locales-organicas/,Busquedas Locales Organicas,0,0,,1426,Fusionar y redirigir 301,/busquedas-con-intencion-local/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+426,post,Diccionario,/busquedas-locales-en-dispositivos-moviles/,Busquedas Locales En Dispositivos Moviles,0,0,,1116,Conservar y reescribir,/busquedas-locales-en-dispositivos-moviles/,Normal,
+425,post,Diccionario,/busquedas-con-intencion-local/,Busquedas Con Intencion Local,0,0,,1305,Conservar y reescribir,/busquedas-con-intencion-local/,Normal,
+424,post,Diccionario,/busquedas-cerca-de-mi/,Busquedas Cerca De Mi,0,0,,1241,Fusionar y redirigir 301,/busquedas-con-intencion-local/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+423,post,Diccionario,/busqueda-por-voz-local/,Busqueda Por Voz Local,0,0,,2313,Fusionar y redirigir 301,/busquedas-por-voz/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+422,post,Diccionario,/busqueda-por-imagen-local/,Busqueda Por Imagen Local,0,0,,1372,Conservar y reescribir,/busqueda-por-imagen-local/,Normal,
+421,post,Diccionario,/black-hat-seo/,Black Hat Seo,0,0,,1466,Fusionar y redirigir 301,/white-hat-seo/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+420,post,Diccionario,/bing-places/,Bing Places,0,0,,1961,Conservar y reescribir,/bing-places/,Normal,
+419,post,Diccionario,/bing-maps/,Bing Maps,0,0,,1235,Fusionar y redirigir 301,/bing-places/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+418,post,Diccionario,/backlinks-locales/,Backlinks Locales,0,0,,1392,Conservar y reescribir,/backlinks-locales/,Normal,
+417,post,Diccionario,/auditoria-seo-local/,Auditoria Seo Local,0,0,,1285,Conservar y reescribir,/auditoria-seo-local/,Normal,
+416,post,Diccionario,/area-de-servicio/,Area De Servicio,0,0,,1636,Conservar y reescribir,/area-de-servicio/,Normal,
+415,post,Diccionario,/apple-maps/,Apple Maps,0,0,,1504,Fusionar y redirigir 301,/apple-business-connect/,Normal,Tema repetido o sinónimo: lo útil pasa al destino.
+413,post,Diccionario,/anchor-text/,Anchor Text,0,0,,1208,Conservar y reescribir,/anchor-text/,Normal,
+412,post,Diccionario,/algoritmo-de-google/,Algoritmo De Google,0,0,,1554,Conservar y reescribir,/algoritmo-de-google/,Normal,
+3,page,Legal,/privacidad/,Aviso de Privacidad,4,158,6.5,271,Conservar y actualizar,/privacidad/,Baja,Revisar razón social y finalidades; agregar enlace en footer.
+704,page,Demo,/,Creative Agency,4,443,19.9,462,Borrar,/,Alta,Es la portada actual: demo en inglés del tema. Se reemplaza por el nuevo home.
+709,portfolio,Demo,/portfolio/website-design-for-digital-agency/,Website Design For Digital Agency,0,36,6.0,99,Borrar,,Normal,Contenido demo del tema Vault en inglés.
+720,post,Demo,https://www.ubicaweb.com/?p=720,Prueba de conexión del agente,0,0,,,Borrar,,Normal,Borrador de prueba del pipeline.
+705,post,Demo,/10-simple-practices-that-will-help-you-get-1-better-every-day/,10 Simple Practices That Will Help You Get 1% Better Every Day,0,0,,613,Borrar,,Normal,Contenido demo del tema Vault en inglés.
+706,post,Demo,/5-uses-of-artificial-intelligence-that-will-blow-your-mind/,5 Uses of Artificial Intelligence that will blow your mind,0,0,,625,Borrar,,Normal,Contenido demo del tema Vault en inglés.
+707,post,Demo,/this-long-awaited-technology-may-finally-change-the-world/,This Long-Awaited Technology May Finally Change the World,0,0,,644,Borrar,,Normal,Contenido demo del tema Vault en inglés.
+708,post,Demo,/design-thinking-building-a-design-system-for-an-existing-product/,Design Thinking: Building a Design System for an Existing Product,0,0,,653,Borrar,,Normal,Contenido demo del tema Vault en inglés.
+710,portfolio,Demo,/portfolio/realistic-3d-model-of-living-room/,Realistic 3d Model of Living Room,0,0,,158,Borrar,,Normal,Contenido demo del tema Vault en inglés.
