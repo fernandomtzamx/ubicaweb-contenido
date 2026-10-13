@@ -1,143 +1,57 @@
-fecha: 2026-10-13T19:41:39Z
-commit: 23ab3587646b3c2eec0a4686c90d1d3b96610de0
+fecha: 2026-10-13T19:43:00Z
+commit: a570dec7d45ceaf2a6ceea66ac9fb5583ca822dc
 evento: push
-resultado: success
-run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/38456709909
+resultado: failure
+run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/38456958832
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Argumentos: content/blog/franquicias/cuales-son-ejemplos-de-franquicias-mas-rentables-en-mexico.md content/blog/franquicias/cuales-son-las-ventajas-y-desventajas-de-tener-una-franquicia.md content/blog/franquicias/cuales-son-los-tipos-de-franquicia.md content/blog/franquicias/cuanto-se-invierte-en-una-franquicia.md content/blog/marketing/como-hacer-marketing-para-mi-franquicia-con-poco-dinero.md content/blog/marketing/como-hacer-un-plan-de-marketing-digital-para-franquicias.md content/blog/marketing/creacion-de-contenido-de-valor-para-atraer-mas-franquiciatarios.md content/blog/marketing/cual-es-la-mejor-estrategia-de-marketing-para-franquicias.md content/blog/marketing/cuales-son-las-7-p-de-la-mercadotecnia-aplicado-a-franquicias.md content/blog/marketing/cuanto-dinero-hay-que-invertir-en-marketing-para-una-franquicia.md content/blog/marketing/estrategias-de-retencion-de-clientes-para-franquicias.md content/blog/marketing/formacion-en-marketing-digital-clave-para-el-exito-de-franquiciatarios.md content/blog/marketing/medicion-del-impacto-de-tus-estrategias-de-marketing-en-franquicias.md content/blog/marketing/que-hacer-cuando-las-ventas-son-bajas-en-una-franquicia.md content/blog/marketing/que-significa-la-palabra-branding-en-franquicias.md content/blog/operacion/caso-de-exito-transformacion-digital-de-una-franquicia-lider.md content/blog/operacion/como-el-analisis-de-datos-puede-transformar-tu-cadena-de-franquicias.md content/blog/operacion/email-marketing-la-herramienta-subestimada-para-la-gestion-de-franquicias.md content/blog/operacion/innovaciones-tecnologicas-para-la-gestion-de-franquicias-en-la-era-digital.md content/blog/operacion/integracion-de-herramientas-crm-para-una-gestion-eficiente-de-franquicias.md content/blog/operacion/la-revolucion-del-chatbot-en-la-atencion-al-cliente-de-franquicias.md content/blog/publicidad/estrategias-de-publicidad-online-efectivas-para-franquicias.md content/blog/publicidad/que-es-generar-leads-y-como-lo-hago-para-mi-franquicia.md content/blog/publicidad/seo-vs-sem-que-es-mejor-para-tu-franquicia.md content/blog/seo-local/la-guia-definitiva-del-seo-local-para-franquicias.md content/blog/seo-local/la-importancia-de-las-resenas-online-para-las-franquicias.md content/blog/sitios-web/beneficios-de-una-gestion-centralizada-de-sitios-web-para-franquicias.md content/blog/sitios-web/la-importancia-de-la-velocidad-de-carga-en-los-sitios-web-de-franquicias.md 
 Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
-Conectado como soporte (roles: administrator)
-  + etiqueta creada: franquicias rentables
-  + etiqueta creada: invertir en franquicias
-  + etiqueta creada: México
-  + imagen subida: cuales-son-ejemplos-de-franquicias-mas-rentables-en-mexico.png (id 772)
-content/blog/franquicias/cuales-son-ejemplos-de-franquicias-mas-rentables-en-mexico.md: post actualizada (publish) id=308 https://www.ubicaweb.com/cuales-son-ejemplos-de-franquicias-mas-rentables-en-mexico/
-  + etiqueta creada: ventajas de una franquicia
-  + etiqueta creada: desventajas
-  + imagen subida: cuales-son-las-ventajas-y-desventajas-de-tener-una-franquicia.png (id 774)
-content/blog/franquicias/cuales-son-las-ventajas-y-desventajas-de-tener-una-franquicia.md: post actualizada (publish) id=312 https://www.ubicaweb.com/cuales-son-las-ventajas-y-desventajas-de-tener-una-franquicia/
-  + etiqueta creada: tipos de franquicia
-  + etiqueta creada: franquicia maestra
-  + etiqueta creada: cómo franquiciar
-  + imagen subida: cuales-son-los-tipos-de-franquicia.png (id 776)
-content/blog/franquicias/cuales-son-los-tipos-de-franquicia.md: post actualizada (publish) id=310 https://www.ubicaweb.com/cuales-son-los-tipos-de-franquicia/
-  + etiqueta creada: cuota de franquicia
-  + etiqueta creada: costos
-  + imagen subida: cuanto-se-invierte-en-una-franquicia.png (id 778)
-content/blog/franquicias/cuanto-se-invierte-en-una-franquicia.md: post actualizada (publish) id=309 https://www.ubicaweb.com/cuanto-se-invierte-en-una-franquicia/
-  + etiqueta creada: bajo presupuesto
-  + etiqueta creada: marketing local
-  + etiqueta creada: reseñas
-  + imagen subida: como-hacer-marketing-para-mi-franquicia-con-poco-dinero.png (id 780)
-content/blog/marketing/como-hacer-marketing-para-mi-franquicia-con-poco-dinero.md: post actualizada (publish) id=292 https://www.ubicaweb.com/como-hacer-marketing-para-mi-franquicia-con-poco-dinero/
-  + etiqueta creada: plan de marketing
-  + etiqueta creada: plantilla
-  + etiqueta creada: presupuesto
-  + imagen subida: como-hacer-un-plan-de-marketing-digital-para-franquicias.png (id 782)
-content/blog/marketing/como-hacer-un-plan-de-marketing-digital-para-franquicias.md: post actualizada (publish) id=299 https://www.ubicaweb.com/como-hacer-un-plan-de-marketing-digital-para-franquicias/
-  + etiqueta creada: marketing de contenidos
-  + etiqueta creada: plan de contenidos
-  + imagen subida: creacion-de-contenido-de-valor-para-atraer-mas-franquiciatarios.png (id 784)
-content/blog/marketing/creacion-de-contenido-de-valor-para-atraer-mas-franquiciatarios.md: post actualizada (publish) id=122 https://www.ubicaweb.com/creacion-de-contenido-de-valor-para-atraer-mas-franquiciatarios/
-  + etiqueta creada: estrategia de marketing
-  + etiqueta creada: franquicias
-  + imagen subida: cual-es-la-mejor-estrategia-de-marketing-para-franquicias.png (id 786)
-content/blog/marketing/cual-es-la-mejor-estrategia-de-marketing-para-franquicias.md: post actualizada (publish) id=284 https://www.ubicaweb.com/cual-es-la-mejor-estrategia-de-marketing-para-franquicias/
-  + etiqueta creada: 7P
-  + etiqueta creada: mezcla de marketing
-  + imagen subida: cuales-son-las-7-p-de-la-mercadotecnia-aplicado-a-franquicias.png (id 788)
-content/blog/marketing/cuales-son-las-7-p-de-la-mercadotecnia-aplicado-a-franquicias.md: post actualizada (publish) id=302 https://www.ubicaweb.com/cuales-son-las-7-p-de-la-mercadotecnia-aplicado-a-franquicias/
-  + etiqueta creada: presupuesto de marketing
-  + etiqueta creada: publicidad
-  + imagen subida: cuanto-dinero-hay-que-invertir-en-marketing-para-una-franquicia.png (id 790)
-content/blog/marketing/cuanto-dinero-hay-que-invertir-en-marketing-para-una-franquicia.md: post actualizada (publish) id=293 https://www.ubicaweb.com/cuanto-dinero-hay-que-invertir-en-marketing-para-una-franquicia/
-  + etiqueta creada: retención de clientes
-  + etiqueta creada: lealtad
-  + etiqueta creada: WhatsApp
-  + imagen subida: estrategias-de-retencion-de-clientes-para-franquicias.png (id 792)
-content/blog/marketing/estrategias-de-retencion-de-clientes-para-franquicias.md: post actualizada (publish) id=142 https://www.ubicaweb.com/estrategias-de-retencion-de-clientes-para-franquicias/
-  + etiqueta creada: capacitación
-  + imagen subida: formacion-en-marketing-digital-clave-para-el-exito-de-franquiciatarios.png (id 794)
-content/blog/marketing/formacion-en-marketing-digital-clave-para-el-exito-de-franquiciatarios.md: post actualizada (publish) id=126 https://www.ubicaweb.com/formacion-en-marketing-digital-clave-para-el-exito-de-franquiciatarios/
-  + etiqueta creada: medición
-  + etiqueta creada: indicadores
-  + etiqueta creada: reporte por sucursal
-  + imagen subida: medicion-del-impacto-de-tus-estrategias-de-marketing-en-franquicias.png (id 796)
-content/blog/marketing/medicion-del-impacto-de-tus-estrategias-de-marketing-en-franquicias.md: post actualizada (publish) id=127 https://www.ubicaweb.com/medicion-del-impacto-de-tus-estrategias-de-marketing-en-franquicias/
-  + etiqueta creada: ventas bajas
-  + etiqueta creada: clientes
-  + etiqueta creada: diagnóstico
-  + imagen subida: que-hacer-cuando-las-ventas-son-bajas-en-una-franquicia.png (id 798)
-content/blog/marketing/que-hacer-cuando-las-ventas-son-bajas-en-una-franquicia.md: post actualizada (publish) id=285 https://www.ubicaweb.com/que-hacer-cuando-las-ventas-son-bajas-en-una-franquicia/
-  + etiqueta creada: branding
-  + etiqueta creada: identidad de marca
-  + etiqueta creada: consistencia
-  + imagen subida: que-significa-la-palabra-branding-en-franquicias.png (id 800)
-content/blog/marketing/que-significa-la-palabra-branding-en-franquicias.md: post actualizada (publish) id=303 https://www.ubicaweb.com/que-significa-la-palabra-branding-en-franquicias/
-  + etiqueta creada: transformación digital
-  + etiqueta creada: ejemplo
-  + etiqueta creada: plan
-  + imagen subida: caso-de-exito-transformacion-digital-de-una-franquicia-lider.png (id 802)
-content/blog/operacion/caso-de-exito-transformacion-digital-de-una-franquicia-lider.md: post actualizada (publish) id=123 https://www.ubicaweb.com/caso-de-exito-transformacion-digital-de-una-franquicia-lider/
-  + etiqueta creada: análisis de datos
-  + etiqueta creada: reportes
-  + etiqueta creada: decisiones
-  + imagen subida: como-el-analisis-de-datos-puede-transformar-tu-cadena-de-franquicias.png (id 804)
-content/blog/operacion/como-el-analisis-de-datos-puede-transformar-tu-cadena-de-franquicias.md: post actualizada (publish) id=119 https://www.ubicaweb.com/como-el-analisis-de-datos-puede-transformar-tu-cadena-de-franquicias/
-  + etiqueta creada: email marketing
-  + etiqueta creada: comunicación
-  + imagen subida: email-marketing-la-herramienta-subestimada-para-la-gestion-de-franquicias.png (id 806)
-content/blog/operacion/email-marketing-la-herramienta-subestimada-para-la-gestion-de-franquicias.md: post actualizada (publish) id=121 https://www.ubicaweb.com/email-marketing-la-herramienta-subestimada-para-la-gestion-de-franquicias/
-  + etiqueta creada: herramientas digitales
-  + etiqueta creada: tecnología
-  + etiqueta creada: gestión de franquicias
-  + imagen subida: innovaciones-tecnologicas-para-la-gestion-de-franquicias-en-la-era-digital.png (id 808)
-content/blog/operacion/innovaciones-tecnologicas-para-la-gestion-de-franquicias-en-la-era-digital.md: post actualizada (publish) id=143 https://www.ubicaweb.com/innovaciones-tecnologicas-para-la-gestion-de-franquicias-en-la-era-digital/
-  + etiqueta creada: CRM
-  + etiqueta creada: seguimiento de clientes
-  + etiqueta creada: leads
-  + imagen subida: integracion-de-herramientas-crm-para-una-gestion-eficiente-de-franquicias.png (id 810)
-content/blog/operacion/integracion-de-herramientas-crm-para-una-gestion-eficiente-de-franquicias.md: post actualizada (publish) id=135 https://www.ubicaweb.com/integracion-de-herramientas-crm-para-una-gestion-eficiente-de-franquicias/
-  + etiqueta creada: chatbot
-  + etiqueta creada: atención al cliente
-  + etiqueta creada: inteligencia artificial
-  + imagen subida: la-revolucion-del-chatbot-en-la-atencion-al-cliente-de-franquicias.png (id 812)
-content/blog/operacion/la-revolucion-del-chatbot-en-la-atencion-al-cliente-de-franquicias.md: post actualizada (publish) id=131 https://www.ubicaweb.com/la-revolucion-del-chatbot-en-la-atencion-al-cliente-de-franquicias/
-  + etiqueta creada: Google Ads
-  + etiqueta creada: Meta Ads
-  + etiqueta creada: promociones
-  + imagen subida: estrategias-de-publicidad-online-efectivas-para-franquicias.png (id 814)
-content/blog/publicidad/estrategias-de-publicidad-online-efectivas-para-franquicias.md: post actualizada (publish) id=120 https://www.ubicaweb.com/estrategias-de-publicidad-online-efectivas-para-franquicias/
-  + etiqueta creada: seguimiento
-  + imagen subida: que-es-generar-leads-y-como-lo-hago-para-mi-franquicia.png (id 816)
-content/blog/publicidad/que-es-generar-leads-y-como-lo-hago-para-mi-franquicia.md: post actualizada (publish) id=304 https://www.ubicaweb.com/que-es-generar-leads-y-como-lo-hago-para-mi-franquicia/
-  + etiqueta creada: SEO
-  + etiqueta creada: SEM
-  + imagen subida: seo-vs-sem-que-es-mejor-para-tu-franquicia.png (id 818)
-content/blog/publicidad/seo-vs-sem-que-es-mejor-para-tu-franquicia.md: post actualizada (publish) id=139 https://www.ubicaweb.com/seo-vs-sem-que-es-mejor-para-tu-franquicia/
-  + etiqueta creada: SEO local
-  + etiqueta creada: Google Maps
-  + etiqueta creada: Google Business Profile
-  + imagen subida: la-guia-definitiva-del-seo-local-para-franquicias.png (id 820)
-content/blog/seo-local/la-guia-definitiva-del-seo-local-para-franquicias.md: post actualizada (publish) id=116 https://www.ubicaweb.com/la-guia-definitiva-del-seo-local-para-franquicias/
-  + etiqueta creada: reputación online
-  + imagen subida: la-importancia-de-las-resenas-online-para-las-franquicias.png (id 822)
-content/blog/seo-local/la-importancia-de-las-resenas-online-para-las-franquicias.md: post actualizada (publish) id=128 https://www.ubicaweb.com/la-importancia-de-las-resenas-online-para-las-franquicias/
-  + etiqueta creada: sitio web
-  + etiqueta creada: páginas locales
-  + etiqueta creada: diseño responsivo
-  + etiqueta creada: consistencia de marca
-  + imagen subida: beneficios-de-una-gestion-centralizada-de-sitios-web-para-franquicias.png (id 824)
-content/blog/sitios-web/beneficios-de-una-gestion-centralizada-de-sitios-web-para-franquicias.md: post actualizada (publish) id=117 https://www.ubicaweb.com/beneficios-de-una-gestion-centralizada-de-sitios-web-para-franquicias/
-  + etiqueta creada: velocidad de carga
-  + etiqueta creada: celular
-  + imagen subida: la-importancia-de-la-velocidad-de-carga-en-los-sitios-web-de-franquicias.png (id 826)
-content/blog/sitios-web/la-importancia-de-la-velocidad-de-carga-en-los-sitios-web-de-franquicias.md: post actualizada (publish) id=141 https://www.ubicaweb.com/la-importancia-de-la-velocidad-de-carga-en-los-sitios-web-de-franquicias/
-Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
-Métodos de autenticación anunciados: application-passwords
-Entradas publicadas: 153
-Listado diccionario-seo-local: id=502 https://www.ubicaweb.com/diccionario-seo-local/
+Portada: inicio (id 722)
+Página de entradas: blog
+Menú 3: 5 elementos, ubicación primary
+Redirecciones: 40
+Categoría actualizada: sitios-web-para-franquicias -> Sitios web
+Categoría actualizada: seo-local-para-franquicias -> SEO local
+Categoría actualizada: publicidad-digital-para-franquicias -> Publicidad digital
+Categoría actualizada: marketing-digital-para-franquicias -> Marketing para franquicias
+Categoría actualizada: operacion-de-franquicias -> Operación y tecnología
+Categoría actualizada: franquicias-exitosas -> Abrir una franquicia
+Despublicada: posts/307 (que-ventajas-ofrece-la-franquicia-sobre-otros-negocios)
+Despublicada: posts/306 (que-beneficios-tiene-una-franquicia)
+Despublicada: posts/305 (que-te-ofrece-una-franquicia)
+Despublicada: posts/301 (que-hacer-si-no-llegan-clientes-a-mi-negocio-de-franquicias)
+Despublicada: posts/300 (que-hacer-cuando-no-hay-clientes-en-una-franquicia)
+Despublicada: posts/298 (como-hacer-una-estrategia-de-marketing-para-franquicias-exitosa)
+Despublicada: posts/297 (como-dar-a-conocer-un-producto-ejemplos)
+Despublicada: posts/296 (que-debe-tener-un-plan-de-marketing-para-franquicias)
+Despublicada: posts/295 (como-hacer-un-plan-de-marketing-para-mi-franquicia-en-10-pasos)
+Despublicada: posts/294 (como-hacer-para-tener-clientes-en-mi-franquicia)
+Despublicada: posts/291 (que-franquicias-puedo-adquirir-para-un-negocio-rentable)
+Despublicada: posts/290 (como-armar-un-franquicia)
+Despublicada: posts/289 (cual-es-el-exito-de-las-franquicias)
+Despublicada: posts/288 (como-ofrecer-un-producto-en-promocion)
+Despublicada: posts/286 (que-es-un-plan-de-marketing-para-franquicias-ejemplo)
+Despublicada: posts/283 (como-hacer-un-buen-marketing-para-mi-franquicia)
+Despublicada: posts/282 (que-tipo-de-marketing-es-mas-rentable-para-franquicias)
+Despublicada: posts/281 (que-es-la-estrategia-digital-de-las-franquicias)
+Despublicada: posts/280 (como-se-promociona-una-franquicia)
+Despublicada: posts/140 (como-crear-un-plan-de-contenidos-efectivo-para-franquicias)
+Despublicada: posts/138 (la-importancia-del-diseno-web-responsivo-para-franquicias)
+Despublicada: posts/137 (tendencias-de-marketing-digital-para-franquicias)
+Despublicada: posts/136 (como-las-soluciones-digitales-pueden-mejorar-la-comunicacion-con-franquiciatarios)
+Despublicada: posts/130 (estrategias-de-contenido-para-mejorar-la-experiencia-del-cliente-en-franquicias)
+Despublicada: posts/129 (como-gestionar-la-reputacion-online-de-tu-franquicia)
+Despublicada: posts/125 (manteniendo-la-coherencia-de-marca-en-multiples-sitios-web-de-franquiciatarios)
+Despublicada: posts/124 (lecciones-de-una-franquicia-que-adopto-el-seo-local-a-tiempo)
+Despublicada: posts/118 (herramientas-esenciales-para-la-gestion-digital-de-franquicias)
+ERROR pages/703: el slug es 'blog', no 'blog-2'. No se despublica.
+Despublicada: portfolio/709 (website-design-for-digital-agency)
+Despublicada: posts/705 (10-simple-practices-that-will-help-you-get-1-better-every-day)
+Despublicada: posts/706 (5-uses-of-artificial-intelligence-that-will-blow-your-mind)
+Despublicada: posts/707 (this-long-awaited-technology-may-finally-change-the-world)
+Despublicada: posts/708 (design-thinking-building-a-design-system-for-an-existing-product)
+Despublicada: portfolio/710 (realistic-3d-model-of-living-room)
+1 error(es)
