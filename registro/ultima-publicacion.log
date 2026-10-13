@@ -1,16 +1,41 @@
-fecha: 2026-10-13T19:22:15Z
-commit: 4588f7a1a79e1feb309884686d16fa0b5856a9b1
+fecha: 2026-10-13T19:27:01Z
+commit: 42025e55aefa7ac7ae1c5908ea07f59941bcd19e
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/38454264944
+run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/38454860518
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Argumentos: --check
+Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
+Métodos de autenticación anunciados: application-passwords
+Portada: inicio (id 722)
+Página de entradas: blog
+Menú 3: 5 elementos, ubicación primary
+Categoría actualizada: sitios-web-para-franquicias -> Sitios web
+Categoría actualizada: seo-local-para-franquicias -> SEO local
+Categoría actualizada: publicidad-digital-para-franquicias -> Publicidad digital
+Categoría actualizada: marketing-digital-para-franquicias -> Marketing para franquicias
+Categoría creada: operacion-de-franquicias -> Operación y tecnología
+Categoría actualizada: franquicias-exitosas -> Abrir una franquicia
+Argumentos: content/blog/franquicias/donde-se-registran-las-franquicias-en-mexico.md content/blog/franquicias/que-son-las-regalias-en-una-franquicia.md content/blog/publicidad/quien-paga-la-publicidad-en-una-franquicia.md 
 Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
+  + etiqueta creada: IMPI
+  + etiqueta creada: registro de marca
+  + etiqueta creada: contrato de franquicia
+  + imagen subida: donde-se-registran-las-franquicias-en-mexico.png (id 766)
+content/blog/franquicias/donde-se-registran-las-franquicias-en-mexico.md: post actualizada (publish) id=313 https://www.ubicaweb.com/donde-se-registran-las-franquicias-en-mexico/
+  + etiqueta creada: regalías
+  + etiqueta creada: inversión
+  + imagen subida: que-son-las-regalias-en-una-franquicia.png (id 768)
+content/blog/franquicias/que-son-las-regalias-en-una-franquicia.md: post actualizada (publish) id=311 https://www.ubicaweb.com/que-son-las-regalias-en-una-franquicia/
+  + etiqueta creada: fondo de publicidad
+  + etiqueta creada: publicidad local
+  + etiqueta creada: franquiciatarios
+  + imagen subida: quien-paga-la-publicidad-en-una-franquicia.png (id 770)
+content/blog/publicidad/quien-paga-la-publicidad-en-una-franquicia.md: post actualizada (publish) id=287 https://www.ubicaweb.com/quien-paga-la-publicidad-en-una-franquicia/
 Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Entradas publicadas: 153
