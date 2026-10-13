@@ -42,7 +42,9 @@ def main():
     # Página de entradas: 0 = ninguna (el listado del blog es una página propia).
     if "pagina_entradas" in cfg:
         try:
-            wp.req("POST", "settings", json={"page_for_posts": int(cfg["pagina_entradas"])})
+            v = cfg["pagina_entradas"]
+            pid = int(v) if str(v).isdigit() else wp.find_by_slug("pages", str(v))["id"]
+            wp.req("POST", "settings", json={"page_for_posts": pid})
             print(f"Página de entradas: {cfg['pagina_entradas']}")
         except Exception as e:  # noqa: BLE001
             errors += 1

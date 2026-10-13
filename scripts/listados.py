@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 """Arma las páginas de listado desde lo publicado en WordPress:
 
-    /blog/                    entradas agrupadas por tema, con portada
     /diccionario-seo-local/   índice A a Z de los términos
 
-Solo muestra lo que se conserva según docs/mapa-del-sitio.csv (lo que se fusiona o se borra no aparece).
+Los términos y sus nombres visibles salen de docs/diccionario.yml.
 Se corre en la Action después de publicar, así los listados siempre están al día.
 """
-import csv
 import html
 import importlib.util
 import pathlib
@@ -22,23 +20,6 @@ spec = importlib.util.spec_from_file_location("publish", ROOT / "scripts" / "pub
 pub = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(pub)
 
-# Temas del blog en orden de aparición: (ancla, título, descripción, slugs de categoría actuales)
-GRUPOS = [
-    ("sitios-web", "Sitios web", "Cómo debe verse y funcionar el sitio de una marca con muchas sucursales.",
-     ["sitios-web-para-franquicias"]),
-    ("seo-local", "SEO local y reseñas", "Aparecer en Google Maps cuando alguien busca cerca de tu sucursal.",
-     ["seo-local-para-franquicias"]),
-    ("publicidad", "Publicidad digital", "Anuncios en Google y Meta que llevan gente a cada ubicación.",
-     ["publicidad-digital-para-franquicias"]),
-    ("marketing", "Marketing para franquicias", "Planes, estrategia y presupuesto de marketing para la red.",
-     ["marketing-digital-para-franquicias"]),
-    ("operacion", "Operación y tecnología", "Herramientas y procesos para administrar la red sin perder el control.",
-     ["herramienas-digitales-para-franquicias", "transformacion-digital-para-franquicias"]),
-    ("franquicias", "Abrir y hacer crecer una franquicia", "Regalías, registro, inversión y lo básico del modelo.",
-     ["franquicias-exitosas"]),
-]
-
-
 def plano(t):
     return unicodedata.normalize("NFD", t).encode("ascii", "ignore").decode().upper()
 
@@ -49,14 +30,6 @@ def corto(texto, n):
     if len(t) <= n:
         return t
     return t[:n].rsplit(" ", 1)[0].rstrip(",.;:") + "…"
-
-
-def conservadas():
-    fuera = set()
-    for r in csv.DictReader(open(ROOT / "docs" / "mapa-del-sitio.csv", encoding="utf-8")):
-        if r["accion"].startswith(("Fusionar", "Borrar")) and r["url_actual"].startswith("/"):
-            fuera.add(r["url_actual"].strip("/"))
-    return fuera
 
 
 def todas(wp):
@@ -84,40 +57,6 @@ def imagen(p):
         return m.get("source_url", "")
     except (KeyError, IndexError, TypeError):
         return ""
-
-
-def pagina_blog(posts, cats, fuera):
-    grupos = {g[0]: [] for g in GRUPOS}
-    for p in posts:
-        if p["slug"] in fuera:
-            continue
-        slugs = {cats.get(c, "") for c in p["categories"]}
-        for ancla, _, _, cs in GRUPOS:
-            if slugs & set(cs):
-                grupos[ancla].append(p)
-                break
-    total = sum(len(v) for v in grupos.values())
-    nav = "".join(f'<a href="#{a}">{t}</a>' for a, t, _, _ in GRUPOS if grupos[a])
-    bloques = []
-    for ancla, titulo, desc, _ in GRUPOS:
-        if not grupos[ancla]:
-            continue
-        cards = []
-        for p in sorted(grupos[ancla], key=lambda p: p["title"]["rendered"].lower()):
-            t = html.unescape(p["title"]["rendered"]).rstrip(".")
-            img = imagen(p)
-            img_tag = f'<img src="{img}" alt="" loading="lazy">' if img else ""
-            cards.append(f'<a class="uw-post" href="{p["link"]}">{img_tag}<div><b>{html.escape(t)}</b></div></a>')
-        bloques.append(f'<div class="uw-grupo" id="{ancla}"><h2>{titulo}</h2><p class="uw-grupo-desc">{desc}</p>'
-                       f'<div class="uw-posts">{"".join(cards)}</div></div>')
-    return f"""<div class="uw">
-<section class="uw-sec"><span class="uw-kicker">Blog</span>
-<h1 class="uw-titulo-listado">Marketing para franquicias, sin relleno.</h1>
-<p class="uw-sub">{total} guías sobre cómo hacer que cada sucursal aparezca, se vea bien y reciba clientes. Elige un tema.</p>
-<nav class="uw-nav">{nav}</nav></section>
-<section class="uw-sec uw-sec--blanco">{"".join(bloques)}</section>
-{CTA}
-</div>"""
 
 
 def pagina_diccionario(posts, nombres):
@@ -173,14 +112,10 @@ def publicar(wp, slug, titulo, excerpt, cuerpo):
 def main():
     wp = pub.WP(pub.env("WP_URL"), pub.env("WP_USER"), pub.env("WP_APP_PASSWORD"))
     wp.whoami()
-    cats = {c["id"]: c["slug"] for c in wp.req("GET", "categories", params={"per_page": 100})}
     posts = todas(wp)
     print(f"Entradas publicadas: {len(posts)}")
-    fuera = conservadas()
     nombres = yaml.safe_load((ROOT / "docs" / "diccionario.yml").read_text(encoding="utf-8")) or {}
-    publicar(wp, "blog", "Blog de marketing para franquicias",
-             "Guías sobre sitios web, SEO local y publicidad digital para franquicias y negocios con varias sucursales.",
-             pagina_blog(posts, cats, fuera))
+    # /blog/ usa la plantilla de listado del tema (página de entradas); aquí solo el diccionario.
     publicar(wp, "diccionario-seo-local", "Diccionario de SEO local",
              "Los términos de SEO local explicados en corto: Google Maps, reseñas, NAP, Local Pack y más.",
              pagina_diccionario(posts, nombres))
