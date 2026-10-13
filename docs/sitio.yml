@@ -86,7 +86,6 @@ despublicar:
   # Páginas reemplazadas y demo del tema
   - {id: 65, slug: demo, tipo: pages}
   - {id: 68, slug: saas-2, tipo: pages}
-  - {id: 703, slug: blog-2, tipo: pages}
   - {id: 609, slug: blog-de-marketing-para-franquicias, tipo: pages}
   - {id: 704, slug: creative-agency, tipo: pages}
   - {id: 709, slug: website-design-for-digital-agency, tipo: portfolio}
