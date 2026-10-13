@@ -33,10 +33,10 @@ autor:
   nickname: "Fernando Martínez"
   slug: "fernando-martinez"
   url: "https://www.ubicaweb.com"
-  description: "Fernando Martínez es especialista en SEO local, sitios web y MarTech, con más de 15 años de experiencia. Ha dirigido el SEO local de más de 400 clientes."
+  description: "Fernando Martínez es experto en tecnología con más de 15 años de experiencia en sitios web, SEO local y MarTech. Ha dirigido estrategias de SEO local para más de 400 clientes."
   meta:
-    ubicaweb_bio_larga: "Fernando Martínez es especialista en SEO local, sitios web y MarTech, con más de 15 años de experiencia. Fue Director de Tecnología (CTO) con operación en 13 países de Latinoamérica y Gerente de SEO, MarTech e Innovación en la industria automotriz, un sector donde cada sucursal compite por clientes en su propia ciudad. Ha dirigido estrategias de SEO y SEO local para más de 400 clientes y más de 40 integraciones entre CRM, DMS e inventarios. En UbicaWeb escribe sobre cómo las franquicias y los negocios con varias sucursales consiguen clientes en cada ubicación."
-    ubicaweb_same_as: ""
+    ubicaweb_bio_larga: "Fernando Martínez es experto en tecnología con más de 15 años de experiencia en sitios web, SEO local y MarTech. Fue Director de Tecnología (CTO) con operación en 13 países de LATAM y Gerente de SEO, MarTech e Innovación en la industria automotriz, un sector donde cada sucursal compite por clientes en su propia ciudad. Ha dirigido estrategias de SEO y SEO local para más de 400 clientes y más de 40 integraciones entre CRM, DMS e inventarios. En UbicaWeb escribe sobre cómo las franquicias y los negocios con varias ubicaciones consiguen clientes en cada sucursal."
+    ubicaweb_same_as: "https://www.linkedin.com/in/fernandomtza/"
 
 # Categorías del blog: se crean o actualizan con nombre y descripción.
 # Pendiente de definir los pilares editoriales de UbicaWeb.
