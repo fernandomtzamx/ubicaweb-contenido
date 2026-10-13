@@ -111,7 +111,7 @@ def main():
     types = raw(wp, "wp/v2/types")
     endpoints = [(k, v.get("rest_base")) for k, v in (types or {}).items()
                  if isinstance(v, dict) and v.get("rest_base") and k not in
-                 ("attachment", "nav_menu_item", "wp_block", "wp_template", "wp_template_part", "wp_navigation",
+                 ("attachment", "nav_menu_item", "metform-entry", "wp_block", "wp_template", "wp_template_part", "wp_navigation",
                   "wp_global_styles", "wp_font_family", "wp_font_face")]
     print("Tipos de contenido:", ", ".join(f"{k}->{b}" for k, b in endpoints))
     for kind, base in endpoints:

@@ -14,8 +14,9 @@ from PIL import Image, ImageDraw, ImageFont
 
 W, H, S = 1200, 630, 2
 F = "/usr/share/fonts/opentype/inter/"
-INK, PANEL, TEXT, MUTED = (15, 18, 34), (24, 28, 50), (245, 243, 238), (150, 155, 180)
-ACCENT, BAR = (255, 90, 60), (92, 99, 140)
+# Identidad UbicaWeb: verde del logo #108139, fondo beige, texto tinta verdosa
+INK, PANEL, TEXT, MUTED = (245, 240, 230), (234, 226, 210), (28, 43, 34), (96, 112, 102)
+ACCENT, BAR, ON_ACCENT = (16, 129, 57), (199, 224, 205), (255, 255, 255)
 
 
 def font(name, size):
@@ -88,7 +89,7 @@ def main():
             col = ACCENT if i == 0 else BAR
             d.rounded_rectangle([(px + 32) * S, yy * S, (px + 32 + tw + 40) * S, (yy + 64) * S],
                                 radius=14 * S, fill=col)
-            d.text(((px + 52) * S, (yy + 12) * S), c, font=cf, fill=TEXT)
+            d.text(((px + 52) * S, (yy + 12) * S), c, font=cf, fill=ON_ACCENT if i == 0 else TEXT)
             yy += 78
     else:
         # Patrón determinista a partir del título: barras redondeadas
