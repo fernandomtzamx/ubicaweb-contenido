@@ -1,15 +1,12 @@
-fecha: 2026-10-13T17:55:36Z
-commit: 7649b2bb4732cb60db3f2eca62c424a48fd3f8ff
+fecha: 2026-10-13T17:57:00Z
+commit: db593d07bd86ccd37787a87562fd599d4ca92010
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/38442570423
+run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/38442759065
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
-Métodos de autenticación anunciados: application-passwords
-Portada: inicio (id 722)
 Argumentos: content/paginas/inicio.md 
 Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
