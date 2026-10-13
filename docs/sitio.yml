@@ -5,7 +5,7 @@
 # Nota al pie de cada entrada. Déjala vacía ("") para no poner ninguna.
 firma_articulo: ""
 
-# Perfil público del usuario del agente (aiagent). Descomenta y ajusta si quieres firmar con él.
+# Perfil público del usuario del agente (soporte). Descomenta y ajusta si quieres firmar con él.
 # autor:
 #   first_name: ""
 #   last_name: ""

@@ -7,7 +7,7 @@ Uso:
 
 Variables de entorno requeridas:
     WP_URL           https://www.ubicaweb.com
-    WP_USER          usuario de WordPress (aiagent)
+    WP_USER          usuario de WordPress (soporte)
     WP_APP_PASSWORD  contraseña de aplicación
 
 Frontmatter soportado:

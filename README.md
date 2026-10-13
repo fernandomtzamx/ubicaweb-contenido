@@ -30,7 +30,7 @@ tags: [franquicias, google-business-profile]
 | Secreto | Valor |
 | --- | --- |
 | `WP_URL` | `https://www.ubicaweb.com` |
-| `WP_USER` | `aiagent` |
+| `WP_USER` | `soporte` |
 | `WP_APP_PASSWORD` | contraseña de aplicación de ese usuario |
 
 ## Autenticación en el servidor
@@ -51,7 +51,7 @@ Actions > Publicar en WordPress > Run workflow > `check`.
 
 ```bash
 pip install -r requirements.txt
-export WP_URL=https://www.ubicaweb.com WP_USER=aiagent WP_APP_PASSWORD=...
+export WP_URL=https://www.ubicaweb.com WP_USER=soporte WP_APP_PASSWORD=...
 python scripts/publish.py --check
 python scripts/publish.py content/pruebas/prueba-conexion.md
 ```
