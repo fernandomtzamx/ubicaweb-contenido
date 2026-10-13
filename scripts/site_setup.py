@@ -68,6 +68,21 @@ def main():
             errors += 1
             print(f"ERROR menú: {e}")
 
+    # Redirecciones 301: docs/redirecciones.yml -> ajuste que lee el mu-plugin ubicaweb-redirecciones.php
+    red_path = ROOT / "docs" / "redirecciones.yml"
+    if red_path.exists():
+        import json
+        mapa = {str(k): str(v) for k, v in (yaml.safe_load(red_path.read_text(encoding="utf-8")) or {}).items()}
+        try:
+            res = wp.req("POST", "settings", json={"ubicaweb_redirecciones": json.dumps(mapa, ensure_ascii=False)})
+            if "ubicaweb_redirecciones" in res:
+                print(f"Redirecciones: {len(mapa)}")
+            else:
+                print("Aviso: el ajuste ubicaweb_redirecciones no existe; falta subir el mu-plugin ubicaweb-redirecciones.php")
+        except Exception as e:  # noqa: BLE001
+            errors += 1
+            print(f"ERROR redirecciones: {e}")
+
     for c in cfg.get("categorias") or []:
         try:
             found = wp.req("GET", "categories", params={"slug": c["slug"]})
