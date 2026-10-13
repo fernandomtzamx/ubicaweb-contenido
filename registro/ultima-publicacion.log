@@ -1,8 +1,8 @@
-fecha: 2026-10-13T22:17:31Z
-commit: e5a171f2d76fe551aec2d83f86de98d3c2384591
-evento: workflow_dispatch
+fecha: 2026-10-13T22:20:58Z
+commit: c57e85bc9bcdfa3c3effad49c4eb0ea8442731ad
+evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/38476718324
+run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/38477116408
 ---
 WP_URL: presente
 WP_USER: presente
@@ -21,3 +21,11 @@ Categoría actualizada: publicidad-digital-para-franquicias -> Publicidad digita
 Categoría actualizada: marketing-digital-para-franquicias -> Marketing para franquicias
 Categoría actualizada: operacion-de-franquicias -> Operación y tecnología
 Categoría actualizada: franquicias-exitosas -> Abrir una franquicia
+Argumentos: --check
+Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
+Métodos de autenticación anunciados: application-passwords
+Conectado como soporte (roles: administrator)
+Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
+Métodos de autenticación anunciados: application-passwords
+Entradas publicadas: 121
+Listado diccionario-seo-local: id=502 https://www.ubicaweb.com/diccionario-seo-local/
