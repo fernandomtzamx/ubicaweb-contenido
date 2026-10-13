@@ -1,0 +1,45 @@
+name: Inventario del sitio
+
+# Solo lee WordPress. Se corre a mano o al cambiar docs/inventario/solicitud.txt
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "docs/inventario/solicitud.txt"
+      - "scripts/inventario.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-wordpress
+  cancel-in-progress: false
+
+jobs:
+  inventario:
+    runs-on: ubuntu-latest
+    env:
+      WP_URL: ${{ secrets.WP_URL }}
+      WP_USER: ${{ secrets.WP_USER }}
+      WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r requirements.txt
+      - name: Inventario
+        id: inv
+        run: |
+          set -o pipefail
+          mkdir -p docs/inventario
+          python scripts/inventario.py 2>&1 | tee docs/inventario/log.txt
+      - name: Guardar en el repo
+        if: always()
+        run: |
+          git config user.name "ubicaweb-bot"
+          git config user.email "ubicaweb-bot@users.noreply.github.com"
+          git add docs/inventario
+          git commit -m "Inventario del sitio [skip ci]" || exit 0
+          git pull --rebase -q origin main && git push -q origin HEAD:main
