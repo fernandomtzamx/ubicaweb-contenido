@@ -1,8 +1,8 @@
-fecha: 2026-10-13T19:43:00Z
-commit: a570dec7d45ceaf2a6ceea66ac9fb5583ca822dc
+fecha: 2026-10-13T19:44:04Z
+commit: 17db33461e611aa2bf40546d3e2be152f00dd6ca
 evento: push
-resultado: failure
-run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/38456958832
+resultado: success
+run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/38457107134
 ---
 WP_URL: presente
 WP_USER: presente
@@ -19,39 +19,11 @@ Categoría actualizada: publicidad-digital-para-franquicias -> Publicidad digita
 Categoría actualizada: marketing-digital-para-franquicias -> Marketing para franquicias
 Categoría actualizada: operacion-de-franquicias -> Operación y tecnología
 Categoría actualizada: franquicias-exitosas -> Abrir una franquicia
-Despublicada: posts/307 (que-ventajas-ofrece-la-franquicia-sobre-otros-negocios)
-Despublicada: posts/306 (que-beneficios-tiene-una-franquicia)
-Despublicada: posts/305 (que-te-ofrece-una-franquicia)
-Despublicada: posts/301 (que-hacer-si-no-llegan-clientes-a-mi-negocio-de-franquicias)
-Despublicada: posts/300 (que-hacer-cuando-no-hay-clientes-en-una-franquicia)
-Despublicada: posts/298 (como-hacer-una-estrategia-de-marketing-para-franquicias-exitosa)
-Despublicada: posts/297 (como-dar-a-conocer-un-producto-ejemplos)
-Despublicada: posts/296 (que-debe-tener-un-plan-de-marketing-para-franquicias)
-Despublicada: posts/295 (como-hacer-un-plan-de-marketing-para-mi-franquicia-en-10-pasos)
-Despublicada: posts/294 (como-hacer-para-tener-clientes-en-mi-franquicia)
-Despublicada: posts/291 (que-franquicias-puedo-adquirir-para-un-negocio-rentable)
-Despublicada: posts/290 (como-armar-un-franquicia)
-Despublicada: posts/289 (cual-es-el-exito-de-las-franquicias)
-Despublicada: posts/288 (como-ofrecer-un-producto-en-promocion)
-Despublicada: posts/286 (que-es-un-plan-de-marketing-para-franquicias-ejemplo)
-Despublicada: posts/283 (como-hacer-un-buen-marketing-para-mi-franquicia)
-Despublicada: posts/282 (que-tipo-de-marketing-es-mas-rentable-para-franquicias)
-Despublicada: posts/281 (que-es-la-estrategia-digital-de-las-franquicias)
-Despublicada: posts/280 (como-se-promociona-una-franquicia)
-Despublicada: posts/140 (como-crear-un-plan-de-contenidos-efectivo-para-franquicias)
-Despublicada: posts/138 (la-importancia-del-diseno-web-responsivo-para-franquicias)
-Despublicada: posts/137 (tendencias-de-marketing-digital-para-franquicias)
-Despublicada: posts/136 (como-las-soluciones-digitales-pueden-mejorar-la-comunicacion-con-franquiciatarios)
-Despublicada: posts/130 (estrategias-de-contenido-para-mejorar-la-experiencia-del-cliente-en-franquicias)
-Despublicada: posts/129 (como-gestionar-la-reputacion-online-de-tu-franquicia)
-Despublicada: posts/125 (manteniendo-la-coherencia-de-marca-en-multiples-sitios-web-de-franquiciatarios)
-Despublicada: posts/124 (lecciones-de-una-franquicia-que-adopto-el-seo-local-a-tiempo)
-Despublicada: posts/118 (herramientas-esenciales-para-la-gestion-digital-de-franquicias)
-ERROR pages/703: el slug es 'blog', no 'blog-2'. No se despublica.
-Despublicada: portfolio/709 (website-design-for-digital-agency)
-Despublicada: posts/705 (10-simple-practices-that-will-help-you-get-1-better-every-day)
-Despublicada: posts/706 (5-uses-of-artificial-intelligence-that-will-blow-your-mind)
-Despublicada: posts/707 (this-long-awaited-technology-may-finally-change-the-world)
-Despublicada: posts/708 (design-thinking-building-a-design-system-for-an-existing-product)
-Despublicada: portfolio/710 (realistic-3d-model-of-living-room)
-1 error(es)
+Argumentos: --check
+Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
+Métodos de autenticación anunciados: application-passwords
+Conectado como soporte (roles: administrator)
+Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
+Métodos de autenticación anunciados: application-passwords
+Entradas publicadas: 121
+Listado diccionario-seo-local: id=502 https://www.ubicaweb.com/diccionario-seo-local/
