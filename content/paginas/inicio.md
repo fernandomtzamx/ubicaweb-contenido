@@ -9,6 +9,7 @@ excerpt: "Cada sucursal con su sitio web, anuncios en Google y Meta para su zona
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 .uw{--verde:#108139;--verde-osc:#0c6a2e;--verde-cl:#c7e0cd;--beige:#f5f0e6;--panel:#eae2d2;--tinta:#1c2b22;--gris:#607066;--blanco:#fff;font-family:Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--tinta);line-height:1.6;font-size:17px;max-width:1160px;margin:0 auto;padding:0 16px}
+.page-id-722 .uicore-page-title{display:none}
 .uw *{box-sizing:border-box}
 .uw h1,.uw h2,.uw h3{font-family:inherit;color:var(--tinta);letter-spacing:-.02em;margin:0}
 .uw p{margin:0}
