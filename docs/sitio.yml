@@ -2,6 +2,9 @@
 # Se aplica con: Actions > Publicar en WordPress > Run workflow > setup
 # (menús, tagline, header y footer requieren administrador: se hacen a mano).
 
+# Página que se muestra como portada (slug). Requiere usuario administrador.
+portada: inicio
+
 # Nota al pie de cada entrada. Déjala vacía ("") para no poner ninguna.
 firma_articulo: ""
 

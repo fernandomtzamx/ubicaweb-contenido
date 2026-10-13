@@ -2,9 +2,9 @@
 title: "Sitios web, publicidad y SEO local para franquicias"
 slug: inicio
 type: page
-status: draft
+status: publish
 layout: landing
-excerpt: "Cada sucursal con su sitio web, anuncios en Meta para su zona y su ficha de Google bien cuidada. Desde $499 MXN al mes por sucursal."
+excerpt: "Cada sucursal con su sitio web, anuncios en Google y Meta para su zona y su ficha de Google bien cuidada. Desde $499 MXN al mes por sucursal."
 ---
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
@@ -79,7 +79,7 @@ excerpt: "Cada sucursal con su sitio web, anuncios en Meta para su zona y su fic
 <div>
 <span class="uw-kicker">Para franquicias y negocios con varias sucursales</span>
 <h1>Te buscan “cerca de mí”. <span>Que aparezca tu sucursal.</span></h1>
-<p class="uw-sub">Le damos a cada ubicación su propio sitio web, anuncios en Meta para su zona y una ficha de Google que sí está al día. Todo desde un solo lugar, desde $499 MXN al mes por sucursal.</p>
+<p class="uw-sub">Le damos a cada ubicación su propio sitio web, anuncios en Google y Meta para su zona y una ficha de Google que sí está al día. Todo desde un solo lugar, desde $499 MXN al mes por sucursal.</p>
 <div class="uw-ctas">
 <a class="uw-btn" href="/demo/">Cotizar mi red de sucursales</a>
 <a class="uw-btn uw-btn--sec" href="#precios">Ver precios</a>
@@ -87,11 +87,11 @@ excerpt: "Cada sucursal con su sitio web, anuncios en Meta para su zona y su fic
 <p class="uw-nota">Te respondemos en menos de 24 horas.</p>
 </div>
 <div class="uw-panel" aria-label="Ejemplo de cómo se ve una red de sucursales administrada en UbicaWeb">
-<div class="uw-panel-tit"><span>Tu red</span><span>Sitio · Meta · Google</span></div>
-<div class="uw-fila"><span class="uw-pin"></span><span><b>Sucursal Centro</b><small>Abierta hoy hasta las 21:00</small></span><span class="uw-ok"><i>Web</i><i>Meta</i><i>Maps</i></span></div>
-<div class="uw-fila"><span class="uw-pin"></span><span><b>Sucursal Norte</b><small>Abierta hoy hasta las 20:00</small></span><span class="uw-ok"><i>Web</i><i>Meta</i><i>Maps</i></span></div>
-<div class="uw-fila"><span class="uw-pin"></span><span><b>Sucursal Plaza Sur</b><small>Abierta hoy hasta las 22:00</small></span><span class="uw-ok"><i>Web</i><i>Meta</i><i class="no">Maps</i></span></div>
-<div class="uw-fila"><span class="uw-pin"></span><span><b>Sucursal Aeropuerto</b><small>Abierta 24 horas</small></span><span class="uw-ok"><i>Web</i><i class="no">Meta</i><i class="no">Maps</i></span></div>
+<div class="uw-panel-tit"><span>Tu red</span><span>Sitio · Anuncios · Maps</span></div>
+<div class="uw-fila"><span class="uw-pin"></span><span><b>Sucursal Centro</b><small>Abierta hoy hasta las 21:00</small></span><span class="uw-ok"><i>Web</i><i>Ads</i><i>Maps</i></span></div>
+<div class="uw-fila"><span class="uw-pin"></span><span><b>Sucursal Norte</b><small>Abierta hoy hasta las 20:00</small></span><span class="uw-ok"><i>Web</i><i>Ads</i><i>Maps</i></span></div>
+<div class="uw-fila"><span class="uw-pin"></span><span><b>Sucursal Plaza Sur</b><small>Abierta hoy hasta las 22:00</small></span><span class="uw-ok"><i>Web</i><i>Ads</i><i class="no">Maps</i></span></div>
+<div class="uw-fila"><span class="uw-pin"></span><span><b>Sucursal Aeropuerto</b><small>Abierta 24 horas</small></span><span class="uw-ok"><i>Web</i><i class="no">Ads</i><i class="no">Maps</i></span></div>
 </div>
 </div>
 </section>
@@ -122,9 +122,9 @@ excerpt: "Cada sucursal con su sitio web, anuncios en Meta para su zona y su fic
 </div>
 <div class="uw-card">
 <span class="uw-num">2</span>
-<h3>Publicidad digital en Meta</h3>
-<p>Anuncios en Facebook e Instagram para la gente que vive o trabaja cerca de cada sucursal. No para todo el país.</p>
-<ul><li>Campañas por zona de cada sucursal</li><li>Tú decides el presupuesto de pauta</li><li>Reporte por ubicación, no un promedio</li></ul>
+<h3>Publicidad en Google y Meta</h3>
+<p>Anuncios en Google para quien ya está buscando lo que vendes, y en Facebook e Instagram para quien vive o trabaja cerca. Por sucursal, no para todo el país.</p>
+<ul><li>Campañas por zona de cada sucursal</li><li>Te recomendamos cuánto invertir en cada una</li><li>Reporte por ubicación, no un promedio</li></ul>
 </div>
 <div class="uw-card">
 <span class="uw-num">3</span>
@@ -151,28 +151,28 @@ excerpt: "Cada sucursal con su sitio web, anuncios en Meta para su zona y su fic
 <a class="uw-btn uw-btn--sec" href="/demo/">Elegir Sitios</a>
 </div>
 <div class="uw-card uw-precio">
-<span class="uw-plan">Sitios + Meta</span>
+<span class="uw-plan">Sitios + Ads</span>
 <p class="uw-monto">$999 <small>MXN</small></p>
 <p class="uw-unidad">por sucursal al mes</p>
-<span class="uw-pauta">+ tu presupuesto de pauta en Meta</span>
+<span class="uw-pauta">+ inversión en Google Ads y Meta</span>
 <p class="uw-para">Para llevar gente de la zona a cada sucursal.</p>
-<ul><li>Sitio web por ubicación</li><li>Publicidad digital en Meta</li></ul>
-<a class="uw-btn uw-btn--sec" href="/demo/">Elegir Sitios + Meta</a>
+<ul><li>Sitio web por ubicación</li><li>Publicidad en Google Ads y Meta</li></ul>
+<a class="uw-btn uw-btn--sec" href="/demo/">Elegir Sitios + Ads</a>
 </div>
 <div class="uw-card uw-precio dest">
 <span class="uw-badge">El más completo</span>
 <span class="uw-plan">Red completa</span>
 <p class="uw-monto">$1,499 <small>MXN</small></p>
 <p class="uw-unidad">por sucursal al mes</p>
-<span class="uw-pauta">+ tu presupuesto de pauta en Meta</span>
+<span class="uw-pauta">+ inversión en Google Ads y Meta</span>
 <p class="uw-para">Para que te encuentren, te elijan y te visiten.</p>
-<ul><li>Sitio web por ubicación</li><li>Publicidad digital en Meta</li><li>SEO local</li></ul>
+<ul><li>Sitio web por ubicación</li><li>Publicidad en Google Ads y Meta</li><li>SEO local</li></ul>
 <a class="uw-btn" href="/demo/">Elegir Red completa</a>
 </div>
 </div>
 <div class="uw-letra">
-<div><b>¿Qué es el presupuesto de pauta?</b> Es lo que se invierte en los anuncios y se le paga a Meta. Tú decides cuánto por sucursal; nuestra cuota es por operarlos, no un porcentaje de lo que gastas.</div>
-<div><b>Ejemplo:</b> 10 sucursales en Sitios + Meta son $9,990 MXN al mes, más la pauta que tú definas.</div>
+<div><b>¿Y la inversión en anuncios?</b> Va aparte y se le paga directo a Google y a Meta. No tienes que adivinar la cifra: te recomendamos cuánto invertir por sucursal según su zona y su competencia, y lo ajustamos con resultados.</div>
+<div><b>Ejemplo:</b> 10 sucursales en Sitios + Ads son $9,990 MXN al mes, más la inversión en anuncios que te recomendemos.</div>
 </div>
 </section>
 

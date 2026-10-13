@@ -27,6 +27,18 @@ def main():
             errors += 1
             print(f"ERROR autor: {e}")
 
+    # Portada: página estática por slug (requiere rol administrador).
+    if cfg.get("portada"):
+        try:
+            page = wp.find_by_slug("pages", cfg["portada"])
+            if not page:
+                raise RuntimeError(f"no existe la página '{cfg['portada']}'")
+            wp.req("POST", "settings", json={"show_on_front": "page", "page_on_front": page["id"]})
+            print(f"Portada: {cfg['portada']} (id {page['id']})")
+        except Exception as e:  # noqa: BLE001
+            errors += 1
+            print(f"ERROR portada: {e}")
+
     for c in cfg.get("categorias") or []:
         try:
             found = wp.req("GET", "categories", params={"slug": c["slug"]})
