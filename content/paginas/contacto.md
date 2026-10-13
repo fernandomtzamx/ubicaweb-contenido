@@ -20,7 +20,7 @@ excerpt: "Cuéntanos cuántas sucursales tienes y dónde están. Te respondemos 
 <div class="uw-form">
 <h2>Pide tu cotización</h2>
 <p>Te respondemos en menos de 24 horas, en días hábiles.</p>
-[metform form="63"]
+[metform form_id="63"]
 </div>
 <div class="uw-canales">
 <a class="uw-canal" href="https://wa.me/525548300145?text=Hola%2C%20quiero%20cotizar%20UbicaWeb%20para%20mis%20sucursales"><b>WhatsApp</b><span>+52 55 4830 0145 · la vía más rápida</span></a>

@@ -1,4 +1,0 @@
-1 https://www.ubicaweb.com/contacto/?c=1
-2 https://www.ubicaweb.com/blog/?c=2
-3 https://www.ubicaweb.com/diccionario-seo-local/?c=3
-4 https://www.ubicaweb.com/?c=4
