@@ -8,6 +8,7 @@ on:
     paths:
       - "docs/inventario/solicitud.txt"
       - "scripts/inventario.py"
+      - "scripts/exportar.py"
 
 permissions:
   contents: write
@@ -35,11 +36,12 @@ jobs:
           set -o pipefail
           mkdir -p docs/inventario
           python scripts/inventario.py 2>&1 | tee docs/inventario/log.txt
+          python scripts/exportar.py 2>&1 | tee -a docs/inventario/log.txt
       - name: Guardar en el repo
         if: always()
         run: |
           git config user.name "ubicaweb-bot"
           git config user.email "ubicaweb-bot@users.noreply.github.com"
-          git add docs/inventario
+          git add docs/inventario docs/originales
           git commit -m "Inventario del sitio [skip ci]" || exit 0
           git pull --rebase -q origin main && git push -q origin HEAD:main
