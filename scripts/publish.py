@@ -196,6 +196,11 @@ def parse(path):
     status = meta.get("status", "draft")
     if status not in VALID_STATUS:
         raise ValueError(f"{path}: status inválido '{status}'")
+    if meta.get("layout") == "landing":
+        # Página de diseño propio: el cuerpo ya es HTML. Se compacta en una línea para que
+        # wpautop de WordPress no meta <p> ni <br> entre las etiquetas.
+        html = re.sub(r"\s*\n\s*", " ", re.sub(r">\s*\n\s*<", "><", body.strip()))
+        return meta, nofollow_external(html)
     html = markdown.markdown(
         body.strip(),
         extensions=["tables", "fenced_code", "sane_lists", "toc", "attr_list", "md_in_html"],
