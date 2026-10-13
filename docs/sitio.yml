@@ -22,13 +22,21 @@ menu:
 # Nota al pie de cada entrada. Déjala vacía ("") para no poner ninguna.
 firma_articulo: ""
 
-# Perfil público del usuario del agente (soporte). Descomenta y ajusta si quieres firmar con él.
-# autor:
-#   first_name: ""
-#   last_name: ""
-#   name: ""
-#   nickname: ""
-#   description: ""
+# Perfil público del autor (usuario soporte). El slug define la URL /author/<slug>/.
+# description = biografía corta (caja al pie de cada artículo y meta descripción de la página de autor).
+# meta.ubicaweb_bio_larga = biografía de la página de autor (requiere el mu-plugin ubicaweb-autor.php).
+# meta.ubicaweb_same_as = perfiles públicos separados por coma (LinkedIn, etc.) para el schema Person.
+autor:
+  first_name: "Fernando"
+  last_name: "Martínez"
+  name: "Fernando Martínez"
+  nickname: "Fernando Martínez"
+  slug: "fernando-martinez"
+  url: "https://www.ubicaweb.com"
+  description: "Fernando Martínez es especialista en SEO local, sitios web y MarTech, con más de 15 años de experiencia. Ha dirigido el SEO local de más de 400 clientes."
+  meta:
+    ubicaweb_bio_larga: "Fernando Martínez es especialista en SEO local, sitios web y MarTech, con más de 15 años de experiencia. Fue Director de Tecnología (CTO) con operación en 13 países de Latinoamérica y Gerente de SEO, MarTech e Innovación en la industria automotriz, un sector donde cada sucursal compite por clientes en su propia ciudad. Ha dirigido estrategias de SEO y SEO local para más de 400 clientes y más de 40 integraciones entre CRM, DMS e inventarios. En UbicaWeb escribe sobre cómo las franquicias y los negocios con varias sucursales consiguen clientes en cada ubicación."
+    ubicaweb_same_as: ""
 
 # Categorías del blog: se crean o actualizan con nombre y descripción.
 # Pendiente de definir los pilares editoriales de UbicaWeb.

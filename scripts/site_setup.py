@@ -18,14 +18,26 @@ def main():
     wp.whoami()
     errors = 0
 
-    autor = cfg.get("autor") or {}
+    autor = dict(cfg.get("autor") or {})
     if autor:
+        meta = autor.pop("meta", None)
         try:
             me = wp.req("POST", "users/me", json=autor)
-            print(f"Autor actualizado: {me.get('name')}")
+            print(f"Autor actualizado: {me.get('name')} (slug {me.get('slug')})")
         except Exception as e:  # noqa: BLE001
             errors += 1
             print(f"ERROR autor: {e}")
+        if meta:
+            try:
+                me = wp.req("POST", "users/me", json={"meta": meta}, params={"context": "edit"})
+                faltan = [k for k in meta if k not in (me.get("meta") or {})]
+                if faltan:
+                    print(f"Aviso: meta de autor sin registrar ({', '.join(faltan)}); falta subir el mu-plugin ubicaweb-autor.php")
+                else:
+                    print(f"Meta de autor actualizada: {', '.join(meta)}")
+            except Exception as e:  # noqa: BLE001
+                errors += 1
+                print(f"ERROR meta de autor: {e}")
 
     # Portada: página estática por slug (requiere rol administrador).
     if cfg.get("portada"):

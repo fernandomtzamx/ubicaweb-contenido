@@ -2,6 +2,7 @@
 # ubicaweb_redirecciones, que lee el mu-plugin wordpress/mu-plugins/ubicaweb-redirecciones.php.
 
 # Páginas
+"/author/soporte/": "/author/fernando-martinez/"
 "/demo/": "/contacto/"
 "/saas-2/": "/"
 "/blog-2/": "/blog/"
