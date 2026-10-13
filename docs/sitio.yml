@@ -32,7 +32,25 @@ firma_articulo: ""
 
 # Categorías del blog: se crean o actualizan con nombre y descripción.
 # Pendiente de definir los pilares editoriales de UbicaWeb.
-categorias: []
+categorias:
+  - slug: sitios-web-para-franquicias
+    name: Sitios web
+    description: "Cómo debe verse y funcionar el sitio de una marca con muchas sucursales, para que cada ubicación tenga su página y nadie improvise."
+  - slug: seo-local-para-franquicias
+    name: SEO local
+    description: "Google Maps, fichas de Google y reseñas: cómo hacer que cada sucursal aparezca cuando alguien busca cerca de mí."
+  - slug: publicidad-digital-para-franquicias
+    name: Publicidad digital
+    description: "Anuncios en Google y Meta por sucursal, quién los paga y cómo medir lo que traen."
+  - slug: marketing-digital-para-franquicias
+    name: Marketing para franquicias
+    description: "Planes, presupuesto, marca y clientes recurrentes para redes de franquicias y negocios con varias ubicaciones."
+  - slug: operacion-de-franquicias
+    name: Operación y tecnología
+    description: "Herramientas, datos y procesos para administrar una red de sucursales sin perder el control."
+  - slug: franquicias-exitosas
+    name: Abrir una franquicia
+    description: "Regalías, registro, inversión y tipos de franquicia: lo básico antes de firmar."
 
 # Páginas o entradas a mandar a la papelera, por id y slug (se confirma el slug antes de borrar).
 borrar: []

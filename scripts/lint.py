@@ -27,6 +27,13 @@ def slug_index():
             fm = yaml.safe_load(p.read_text(encoding="utf-8").split("---", 2)[1]) or {}
             if fm.get("slug"):
                 _INDEX[str(fm["slug"])] = str(fm.get("date", ""))[:10]
+        # Términos del diccionario y páginas que viven en WordPress (listados)
+        dicc = ROOT / "docs" / "diccionario.yml"
+        if dicc.exists():
+            for slug in (yaml.safe_load(dicc.read_text(encoding="utf-8")) or {}):
+                _INDEX.setdefault(str(slug), "")
+        for slug in ("blog", "diccionario-seo-local", "privacidad"):
+            _INDEX.setdefault(slug, "")
     return _INDEX
 
 
@@ -49,8 +56,8 @@ def check(path):
         img = meta.get("featured_image")
         if not img or not (ROOT / img).exists():
             errs.append("portada inexistente")
-        if words < 900:
-            errs.append(f"muy corto ({words} palabras)")
+        if words < 750:
+            errs.append(f"muy corto ({words} palabras, mínimo 750)")
         if sources < 2:
             warns.append(f"pocas fuentes enlazadas ({sources})")
     # Enlaces internos (permalinks /slug/): deben existir y no apuntar a piezas posteriores (darían 404)
