@@ -1,20 +1,20 @@
-fecha: 2026-10-22T00:36:48Z
-commit: f918b36b3991aeefb2daeccdb737e79e2cee27e1
+fecha: 2026-10-22T12:46:11Z
+commit: b971814ffd99920c612f0b4a6302cec71d1b97fc
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/39700705884
+run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/39781042676
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Argumentos: content/blog/seo-local/como-auditar-las-fichas-de-google-de-todas-tus-sucursales-en-una-tarde.md 
+Argumentos: content/blog/marketing/fondo-de-marketing-en-franquicias-como-se-calcula-y-como-se-reporta.md 
 Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + etiqueta creada: auditoría
-  + imagen subida: como-auditar-las-fichas-de-google-de-todas-tus-sucursales-en-una-tarde.png (id 866)
-content/blog/seo-local/como-auditar-las-fichas-de-google-de-todas-tus-sucursales-en-una-tarde.md: post creada (future) id=867 https://www.ubicaweb.com/?p=867
+  + etiqueta creada: fondo de marketing
+  + imagen subida: fondo-de-marketing-en-franquicias-como-se-calcula-y-como-se-reporta.png (id 869)
+content/blog/marketing/fondo-de-marketing-en-franquicias-como-se-calcula-y-como-se-reporta.md: post creada (future) id=870 https://www.ubicaweb.com/?p=870
 Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
-Entradas publicadas: 121
+Entradas publicadas: 122
 Listado diccionario-seo-local: id=502 https://www.ubicaweb.com/diccionario-seo-local/
