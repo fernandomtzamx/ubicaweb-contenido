@@ -169,8 +169,8 @@ def main():
     for a, b, (cat, c) in zip(SEO_LOCAL, FRANQUICIAS, NEGOCIOS_LOCALES):
         items += [("SEO local", SEO, a), ("Marketing para franquicias", MKT, b),
                   ("Marketing para negocios locales", cat, c)]
-    # Semana 1 (19 oct 2026): miércoles 21 (hoy) y viernes 23. Después: martes y jueves 08:00.
-    slots = [datetime.date(2026, 10, 21), datetime.date(2026, 10, 23)]
+    # Semana 1 (19 oct 2026): miércoles 21 y jueves 22. Después: martes y jueves 08:00.
+    slots = [datetime.date(2026, 10, 21), datetime.date(2026, 10, 22)]
     monday = datetime.date(2026, 10, 26)
     while monday <= datetime.date(2027, 12, 27):
         slots += [monday + datetime.timedelta(days=1), monday + datetime.timedelta(days=3)]
