@@ -1,30 +1,19 @@
-fecha: 2026-10-13T22:20:58Z
-commit: c57e85bc9bcdfa3c3effad49c4eb0ea8442731ad
+fecha: 2026-10-22T00:36:48Z
+commit: f918b36b3991aeefb2daeccdb737e79e2cee27e1
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/38477116408
+run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/39700705884
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
-Métodos de autenticación anunciados: application-passwords
-Autor actualizado: Fernando Martínez (slug fernando-martinez)
-Meta de autor actualizada: ubicaweb_bio_larga, ubicaweb_same_as
-Portada: inicio (id 722)
-Página de entradas: blog
-Menú 3: 5 elementos, ubicación primary
-Redirecciones: 40
-Categoría actualizada: sitios-web-para-franquicias -> Sitios web
-Categoría actualizada: seo-local-para-franquicias -> SEO local
-Categoría actualizada: publicidad-digital-para-franquicias -> Publicidad digital
-Categoría actualizada: marketing-digital-para-franquicias -> Marketing para franquicias
-Categoría actualizada: operacion-de-franquicias -> Operación y tecnología
-Categoría actualizada: franquicias-exitosas -> Abrir una franquicia
-Argumentos: --check
+Argumentos: content/blog/seo-local/como-auditar-las-fichas-de-google-de-todas-tus-sucursales-en-una-tarde.md 
 Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
+  + etiqueta creada: auditoría
+  + imagen subida: como-auditar-las-fichas-de-google-de-todas-tus-sucursales-en-una-tarde.png (id 866)
+content/blog/seo-local/como-auditar-las-fichas-de-google-de-todas-tus-sucursales-en-una-tarde.md: post creada (future) id=867 https://www.ubicaweb.com/?p=867
 Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Entradas publicadas: 121
