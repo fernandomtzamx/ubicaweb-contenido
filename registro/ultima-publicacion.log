@@ -1,20 +1,22 @@
-fecha: 2026-10-22T12:46:11Z
-commit: b971814ffd99920c612f0b4a6302cec71d1b97fc
+fecha: 2026-10-27T13:10:23Z
+commit: ff919489f5d96ae45fd11a97d2c1b7e13607a465
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/39781042676
+run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/40509673654
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Argumentos: content/blog/marketing/fondo-de-marketing-en-franquicias-como-se-calcula-y-como-se-reporta.md 
+Argumentos: content/blog/sitios-web/sitio-web-para-negocio-local-las-5-paginas-que-necesitas-y-nada-mas.md 
 Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + etiqueta creada: fondo de marketing
-  + imagen subida: fondo-de-marketing-en-franquicias-como-se-calcula-y-como-se-reporta.png (id 869)
-content/blog/marketing/fondo-de-marketing-en-franquicias-como-se-calcula-y-como-se-reporta.md: post creada (future) id=870 https://www.ubicaweb.com/?p=870
+  + etiqueta creada: negocios locales
+  + etiqueta creada: diseño móvil
+  + etiqueta creada: conversión
+  + imagen subida: sitio-web-para-negocio-local-las-5-paginas-que-necesitas-y-nada-mas.png (id 872)
+content/blog/sitios-web/sitio-web-para-negocio-local-las-5-paginas-que-necesitas-y-nada-mas.md: post creada (future) id=873 https://www.ubicaweb.com/?p=873
 Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
-Entradas publicadas: 122
+Entradas publicadas: 123
 Listado diccionario-seo-local: id=502 https://www.ubicaweb.com/diccionario-seo-local/
