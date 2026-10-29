@@ -18,7 +18,7 @@ Generado con `scripts/calendario.py`. 126 entradas, dos por semana (martes y jue
 | 1 | 2026-10-21 | SEO local | seo-local-para-franquicias | Cómo auditar las fichas de Google de todas tus sucursales en una tarde | como-auditar-las-fichas-de-google-de-todas-tus-sucursales-en-una-tarde | ✅ |
 | 2 | 2026-10-22 | Marketing para franquicias | marketing-digital-para-franquicias | Fondo de marketing en franquicias: cómo se calcula y cómo se reporta | fondo-de-marketing-en-franquicias-como-se-calcula-y-como-se-reporta | ✅ |
 | 3 | 2026-10-27 | Marketing para negocios locales | sitios-web-para-franquicias | Sitio web para negocio local: las 5 páginas que necesitas y nada más | sitio-web-para-negocio-local-las-5-paginas-que-necesitas-y-nada-mas | ✅ |
-| 4 | 2026-10-29 | SEO local | seo-local-para-franquicias | Ficha de Google: los 12 campos que mueven el ranking local | ficha-de-google-los-12-campos-que-mueven-el-ranking-local |  |
+| 4 | 2026-10-29 | SEO local | seo-local-para-franquicias | Ficha de Google: los 12 campos que mueven el ranking local | ficha-de-google-los-12-campos-que-mueven-el-ranking-local | ✅ |
 | 5 | 2026-11-03 | Marketing para franquicias | marketing-digital-para-franquicias | Marketing cooperativo: la marca pone la mitad, la sucursal la otra | marketing-cooperativo-la-marca-pone-la-mitad-la-sucursal-la-otra |  |
 | 6 | 2026-11-05 | Marketing para negocios locales | publicidad-digital-para-franquicias | Google Ads para negocios locales: campañas por sucursal | google-ads-para-negocios-locales-campanas-por-sucursal |  |
 | 7 | 2026-11-10 | SEO local | seo-local-para-franquicias | Páginas por sucursal: estructura, URL y contenido que Google entiende | paginas-por-sucursal-estructura-url-y-contenido-que-google-entiende |  |
