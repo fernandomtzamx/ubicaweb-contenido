@@ -1,21 +1,21 @@
-fecha: 2026-10-29T12:48:35Z
-commit: 3e7bf4958ce48918a6983afd25fa6400c00c5ff4
+fecha: 2026-11-03T12:46:38Z
+commit: 5935bb04e198cae879a1af1d65b621e048c1ff68
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/40876309896
+run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/41638510085
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Argumentos: content/blog/seo-local/ficha-de-google-los-12-campos-que-mueven-el-ranking-local.md 
+Argumentos: content/blog/marketing/marketing-cooperativo-la-marca-pone-la-mitad-la-sucursal-la-otra.md 
 Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + etiqueta creada: ranking local
-  + etiqueta creada: categorías
-  + imagen subida: ficha-de-google-los-12-campos-que-mueven-el-ranking-local.png (id 876)
-content/blog/seo-local/ficha-de-google-los-12-campos-que-mueven-el-ranking-local.md: post creada (future) id=877 https://www.ubicaweb.com/?p=877
+  + etiqueta creada: marketing cooperativo
+  + etiqueta creada: publicidad cooperativa
+  + imagen subida: marketing-cooperativo-la-marca-pone-la-mitad-la-sucursal-la-otra.png (id 879)
+content/blog/marketing/marketing-cooperativo-la-marca-pone-la-mitad-la-sucursal-la-otra.md: post creada (future) id=880 https://www.ubicaweb.com/?p=880
 Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
-Entradas publicadas: 124
+Entradas publicadas: 125
 Listado diccionario-seo-local: id=502 https://www.ubicaweb.com/diccionario-seo-local/
