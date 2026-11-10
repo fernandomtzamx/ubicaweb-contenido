@@ -1,21 +1,23 @@
-fecha: 2026-11-05T12:40:27Z
-commit: 08b4a5829d555911b5d86a32b3703992666c04b0
+fecha: 2026-11-10T12:47:05Z
+commit: 50dcc543587b8e96cd02feb491f0dc668583142d
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/42029085204
+run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/42818645798
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Argumentos: content/blog/publicidad/google-ads-para-negocios-locales-campanas-por-sucursal.md 
+Argumentos: content/blog/seo-local/paginas-por-sucursal-estructura-url-y-contenido-que-google-entiende.md 
 Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + etiqueta creada: campañas por sucursal
-  + etiqueta creada: segmentación geográfica
-  + imagen subida: google-ads-para-negocios-locales-campanas-por-sucursal.png (id 882)
-content/blog/publicidad/google-ads-para-negocios-locales-campanas-por-sucursal.md: post creada (future) id=883 https://www.ubicaweb.com/?p=883
+  + etiqueta creada: páginas de sucursal
+  + etiqueta creada: arquitectura web
+  + etiqueta creada: URL
+  + etiqueta creada: datos estructurados
+  + imagen subida: paginas-por-sucursal-estructura-url-y-contenido-que-google-entiende.png (id 885)
+content/blog/seo-local/paginas-por-sucursal-estructura-url-y-contenido-que-google-entiende.md: post creada (future) id=886 https://www.ubicaweb.com/?p=886
 Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
-Entradas publicadas: 126
+Entradas publicadas: 127
 Listado diccionario-seo-local: id=502 https://www.ubicaweb.com/diccionario-seo-local/
