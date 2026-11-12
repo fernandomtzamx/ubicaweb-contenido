@@ -1,23 +1,22 @@
-fecha: 2026-11-10T12:47:05Z
-commit: 50dcc543587b8e96cd02feb491f0dc668583142d
+fecha: 2026-11-12T12:46:18Z
+commit: 3bfc242bbaae2fdd72622454bb8054f401920d39
 evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/42818645798
+run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/43220902875
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Argumentos: content/blog/seo-local/paginas-por-sucursal-estructura-url-y-contenido-que-google-entiende.md 
+Argumentos: content/blog/marketing/plantillas-de-marketing-para-franquiciatarios-que-entregar-y-que-no.md 
 Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  + etiqueta creada: páginas de sucursal
-  + etiqueta creada: arquitectura web
-  + etiqueta creada: URL
-  + etiqueta creada: datos estructurados
-  + imagen subida: paginas-por-sucursal-estructura-url-y-contenido-que-google-entiende.png (id 885)
-content/blog/seo-local/paginas-por-sucursal-estructura-url-y-contenido-que-google-entiende.md: post creada (future) id=886 https://www.ubicaweb.com/?p=886
+  + etiqueta creada: plantillas de marketing
+  + etiqueta creada: ficha de Google
+  + etiqueta creada: redes sociales
+  + imagen subida: plantillas-de-marketing-para-franquiciatarios-que-entregar-y-que-no.png (id 888)
+content/blog/marketing/plantillas-de-marketing-para-franquiciatarios-que-entregar-y-que-no.md: post creada (future) id=889 https://www.ubicaweb.com/?p=889
 Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
-Entradas publicadas: 127
+Entradas publicadas: 128
 Listado diccionario-seo-local: id=502 https://www.ubicaweb.com/diccionario-seo-local/
