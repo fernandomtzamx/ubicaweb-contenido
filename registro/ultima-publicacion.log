@@ -1,10 +1,21 @@
-fecha: 2026-11-18T13:46:29Z
-commit: 8fbf8064b5904b9327956781721c345b5a8a028c
-evento: workflow_dispatch
-resultado: cancelled
-run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/44313383762
+fecha: 2026-11-18T13:55:41Z
+commit: 932105090165ac5eba4285338ab5d9fc603d6f09
+evento: push
+resultado: success
+run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/44318653967
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Argumentos: --pendientes
+Argumentos: content/blog/seo-local/nap-consistente-en-una-red-de-50-sucursales-proceso-paso-a-paso.md 
+Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
+Métodos de autenticación anunciados: application-passwords
+Conectado como soporte (roles: administrator)
+  + etiqueta creada: NAP
+  + etiqueta creada: citaciones locales
+  + imagen subida: nap-consistente-en-una-red-de-50-sucursales-proceso-paso-a-paso.png (id 895)
+content/blog/seo-local/nap-consistente-en-una-red-de-50-sucursales-proceso-paso-a-paso.md: post creada (future) id=896 https://www.ubicaweb.com/?p=896
+Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
+Métodos de autenticación anunciados: application-passwords
+Entradas publicadas: 130
+Listado diccionario-seo-local: id=502 https://www.ubicaweb.com/diccionario-seo-local/
