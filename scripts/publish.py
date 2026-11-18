@@ -59,25 +59,31 @@ def is_json(r):
         return False
 
 
+_BLOQUEADO = False  # tras agotar los reintentos una vez, no se vuelve a esperar en esta corrida
+
+
 def with_retry(send, what):
     """Ejecuta send() y reintenta si el servidor responde sin JSON o hay error de red."""
     import time
-    for n, wait in enumerate([0] + RETRY_WAITS):
+    global _BLOQUEADO
+    waits = [] if _BLOQUEADO else RETRY_WAITS
+    r = None
+    for n, wait in enumerate([0] + waits):
         if wait:
-            print(f"Reintento {n}/{len(RETRY_WAITS)} de {what} en {wait} s (respuesta sin JSON o error de red)")
+            print(f"Reintento {n}/{len(waits)} de {what} en {wait} s (respuesta sin JSON o error de red)")
             time.sleep(wait)
         try:
             r = send()
         except requests.RequestException as e:
             print(f"Aviso: {what}: {e}")
-            if n == len(RETRY_WAITS):
+            if n == len(waits):
+                _BLOQUEADO = True
                 raise
             continue
         if r.status_code >= 500 or (r.status_code < 400 and not is_json(r)):
-            if n == len(RETRY_WAITS):
-                return r
             continue
         return r
+    _BLOQUEADO = True
     return r
 
 
@@ -311,7 +317,24 @@ def publish(wp, path):
 
 
 def pendientes(wp):
-    """Archivos del repo con status publish que en WordPress no existen o no están publish/future."""
+    """Archivos del repo con status publish que en WordPress no están publish ni future.
+
+    Usa listados paginados (pocas peticiones) para no disparar la protección antibots del hosting.
+    """
+    vivos = {}
+    for endpoint in ("posts", "pages"):
+        page = 1
+        while True:
+            r = with_retry(lambda: wp.s.get(f"{wp.api}/{endpoint}", timeout=60, params={
+                "per_page": 100, "page": page, "status": "publish,future", "context": "edit",
+                "_fields": "slug,status"}), f"GET {endpoint} p{page}")
+            if r.status_code >= 400 or not is_json(r):
+                raise RuntimeError(f"GET {endpoint} -> {r.status_code}: {r.text[:200]}")
+            for it in r.json():
+                vivos[(endpoint, it["slug"])] = it["status"]
+            if page >= int(r.headers.get("X-WP-TotalPages", 1)):
+                break
+            page += 1
     out = []
     for f in sorted(CONTENT_DIR.rglob("*.md")):
         try:
@@ -321,14 +344,8 @@ def pendientes(wp):
         if fm.get("status") != "publish" or not fm.get("slug"):
             continue
         endpoint = "pages" if fm.get("type", "post") == "page" else "posts"
-        try:
-            item = wp.find_by_slug(endpoint, str(fm["slug"]))
-        except Exception as e:  # noqa: BLE001
-            print(f"Aviso: no pude revisar {fm['slug']}: {e}")
-            continue
-        estado = item["status"] if item else "no existe"
-        if estado not in ("publish", "future"):
-            print(f"  pendiente: {f.relative_to(ROOT)} (en WordPress: {estado})")
+        if (endpoint, str(fm["slug"])) not in vivos:
+            print(f"  pendiente: {f.relative_to(ROOT)}")
             out.append(f)
     return out
 

@@ -8,6 +8,8 @@ Repositorio fuente del blog de [ubicaweb.com](https://www.ubicaweb.com). Cada ar
 2. Al hacer push a `main`, la GitHub Action `Publicar en WordPress` publica solo los archivos nuevos o modificados.
 3. Si ya existe una entrada con el mismo `slug`, se actualiza; nunca se duplica.
 4. Cada corrida deja su log en `registro/ultima-publicacion.log`, para revisar errores sin capturas.
+5. Si el hosting responde sin JSON (bloqueo antibots temporal), el publicador reintenta durante unos 10 minutos; si sigue bloqueado, falla rápido en las demás peticiones para no empeorar el bloqueo.
+6. Dos veces al día (08:20 y 20:20, Ciudad de México) corre el modo `pendientes`: con dos o tres consultas a WordPress detecta los archivos con `status: publish` que no están publicados ni programados y los publica. También se puede lanzar a mano: Actions > Publicar en WordPress > Run workflow > `pendientes`.
 
 ## Frontmatter
 
