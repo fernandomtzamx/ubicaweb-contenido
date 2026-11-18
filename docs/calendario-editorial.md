@@ -24,7 +24,7 @@ Generado con `scripts/calendario.py`. 126 entradas, dos por semana (martes y jue
 | 7 | 2026-11-10 | SEO local | seo-local-para-franquicias | Páginas por sucursal: estructura, URL y contenido que Google entiende | paginas-por-sucursal-estructura-url-y-contenido-que-google-entiende | ✅ |
 | 8 | 2026-11-12 | Marketing para franquicias | marketing-digital-para-franquicias | Plantillas de marketing para franquiciatarios: qué entregar y qué no | plantillas-de-marketing-para-franquiciatarios-que-entregar-y-que-no | ✅ |
 | 9 | 2026-11-17 | Marketing para negocios locales | marketing-digital-para-franquicias | Marketing local para restaurantes con varias sucursales | marketing-local-para-restaurantes-con-varias-sucursales | ✅ |
-| 10 | 2026-11-19 | SEO local | seo-local-para-franquicias | NAP consistente en una red de 50 sucursales: proceso paso a paso | nap-consistente-en-una-red-de-50-sucursales-proceso-paso-a-paso |  |
+| 10 | 2026-11-19 | SEO local | seo-local-para-franquicias | NAP consistente en una red de 50 sucursales: proceso paso a paso | nap-consistente-en-una-red-de-50-sucursales-proceso-paso-a-paso | ✅ |
 | 11 | 2026-11-24 | Marketing para franquicias | marketing-digital-para-franquicias | Lanzamiento de una sucursal nueva: plan de marketing de 90 días | lanzamiento-de-una-sucursal-nueva-plan-de-marketing-de-90-dias |  |
 | 12 | 2026-11-26 | Marketing para negocios locales | sitios-web-para-franquicias | Cómo elegir dominio para una marca con varias sucursales | como-elegir-dominio-para-una-marca-con-varias-sucursales |  |
 | 13 | 2026-12-01 | SEO local | seo-local-para-franquicias | Categorías de la ficha de Google: cómo elegir la principal y las secundarias | categorias-de-la-ficha-de-google-como-elegir-la-principal-y-las-secundarias |  |
