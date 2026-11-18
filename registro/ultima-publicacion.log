@@ -1,13 +1,13 @@
-fecha: 2026-11-18T12:57:21Z
-commit: b6a92626726c68440c254ac304f7ee656d754f8b
-evento: push
+fecha: 2026-11-18T12:58:40Z
+commit: 6273227233868e80daa79b30d4443724b3caea00
+evento: workflow_dispatch
 resultado: failure
-run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/44308798196
+run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/44309022511
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Argumentos: content/blog/marketing/marketing-local-para-restaurantes-con-varias-sucursales.md 
+Argumentos: --check
 Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
 Aviso: /wp-json/ no devolvió JSON
-DIAGNÓSTICO: el servidor respondió 200 sin JSON (posible bloqueo o caché). server=openresty/1.31.1.1 | inicio: '<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta charset="utf8">\n  <meta name="viewport" content="width=device-width,initial-scale=1.0">\n  <script nonce="u6yEEHk6vg4yQMKnZxiKMA==">\n      (function(){\n '
+DIAGNÓSTICO: el servidor respondió 200 sin JSON (posible bloqueo o caché). server=openresty/1.31.1.1 | inicio: '<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta charset="utf8">\n  <meta name="viewport" content="width=device-width,initial-scale=1.0">\n  <script nonce="FuGDtkXO86MdI3J18rmKkw==">\n      (function(){\n '
