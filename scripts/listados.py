@@ -35,9 +35,9 @@ def corto(texto, n):
 def todas(wp):
     posts, page = [], 1
     while True:
-        r = wp.s.get(f"{wp.api}/posts", timeout=60, params={
+        r = pub.with_retry(lambda: wp.s.get(f"{wp.api}/posts", timeout=60, params={
             "per_page": 100, "page": page, "status": "publish", "_embed": "wp:featuredmedia",
-            "_fields": "id,slug,link,title,excerpt,categories,_links,_embedded"})
+            "_fields": "id,slug,link,title,excerpt,categories,_links,_embedded"}), f"GET posts p{page}")
         if r.status_code >= 400:
             break
         posts += r.json()

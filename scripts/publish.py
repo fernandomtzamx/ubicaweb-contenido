@@ -46,12 +46,48 @@ def env(name):
     return value
 
 
+# El hosting (openresty) a veces responde 200 con una página HTML de verificación en lugar de JSON
+# durante unos minutos. Se reintenta con espera creciente antes de rendirse (total ~10 minutos).
+RETRY_WAITS = [int(x) for x in os.environ.get("WP_RETRY_WAITS", "60,180,360").split(",") if x]
+
+
+def is_json(r):
+    try:
+        r.json()
+        return True
+    except ValueError:
+        return False
+
+
+def with_retry(send, what):
+    """Ejecuta send() y reintenta si el servidor responde sin JSON o hay error de red."""
+    import time
+    for n, wait in enumerate([0] + RETRY_WAITS):
+        if wait:
+            print(f"Reintento {n}/{len(RETRY_WAITS)} de {what} en {wait} s (respuesta sin JSON o error de red)")
+            time.sleep(wait)
+        try:
+            r = send()
+        except requests.RequestException as e:
+            print(f"Aviso: {what}: {e}")
+            if n == len(RETRY_WAITS):
+                raise
+            continue
+        if r.status_code >= 500 or (r.status_code < 400 and not is_json(r)):
+            if n == len(RETRY_WAITS):
+                return r
+            continue
+        return r
+    return r
+
+
 class WP:
     def __init__(self, base, user, password):
         # Resolver redirecciones (http->https, sin www->www) antes de autenticar:
         # requests descarta el encabezado Authorization al cambiar de host.
-        probe = requests.get(base.rstrip("/") + "/wp-json/", timeout=30,
-                             headers={"User-Agent": "ubicaweb-agente/1.0"})
+        probe = with_retry(lambda: requests.get(base.rstrip("/") + "/wp-json/", timeout=30,
+                                                headers={"User-Agent": "ubicaweb-agente/1.0"}),
+                           "GET /wp-json/")
         final = probe.url.split("/wp-json")[0]
         if final.rstrip("/") != base.rstrip("/"):
             print(f"Aviso: {base} redirige a {final}; uso la URL final.")
@@ -72,7 +108,8 @@ class WP:
         self._term_cache = {}
 
     def req(self, method, path, **kw):
-        r = self.s.request(method, f"{self.api}/{path}", timeout=30, **kw)
+        r = with_retry(lambda: self.s.request(method, f"{self.api}/{path}", timeout=30, **kw),
+                       f"{method} {path}")
         if r.status_code >= 400:
             raise RuntimeError(f"{method} {path} -> {r.status_code}: {r.text[:300]}")
         return r.json()
@@ -80,8 +117,9 @@ class WP:
     def whoami(self):
         import time
         params = {"context": "edit", "_nc": str(int(time.time() * 1000))}
-        r = self.s.get(f"{self.api}/users/me", params=params, timeout=30,
-                       headers={"Cache-Control": "no-cache", "Pragma": "no-cache"})
+        r = with_retry(lambda: self.s.get(f"{self.api}/users/me", params=params, timeout=30,
+                                          headers={"Cache-Control": "no-cache", "Pragma": "no-cache"}),
+                       "GET users/me")
         if r.status_code == 200:
             try:
                 return r.json()
@@ -146,9 +184,10 @@ def media_id(self, file_path, alt):
         print(f"  = imagen reutilizada: {slug} (id {mid})")
         return mid
     mime = {".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".webp": "image/webp"}[file_path.suffix.lower()]
-    r = self.s.post(f"{self.api}/media", data=file_path.read_bytes(), timeout=60,
-                    headers={"Content-Type": mime,
-                             "Content-Disposition": f'attachment; filename="{file_path.name}"'})
+    r = with_retry(lambda: self.s.post(f"{self.api}/media", data=file_path.read_bytes(), timeout=60,
+                                       headers={"Content-Type": mime,
+                                                "Content-Disposition": f'attachment; filename="{file_path.name}"'}),
+                   "POST media")
     if r.status_code >= 400:
         raise RuntimeError(f"POST media -> {r.status_code}: {r.text[:300]}")
     mid = r.json()["id"]
@@ -271,11 +310,36 @@ def publish(wp, path):
     print(f"{path.relative_to(ROOT)}: {kind} {action} ({res['status']}) id={res['id']} {res['link']}")
 
 
+def pendientes(wp):
+    """Archivos del repo con status publish que en WordPress no existen o no están publish/future."""
+    out = []
+    for f in sorted(CONTENT_DIR.rglob("*.md")):
+        try:
+            fm = yaml.safe_load(f.read_text(encoding="utf-8").split("---", 2)[1]) or {}
+        except Exception:  # noqa: BLE001
+            continue
+        if fm.get("status") != "publish" or not fm.get("slug"):
+            continue
+        endpoint = "pages" if fm.get("type", "post") == "page" else "posts"
+        try:
+            item = wp.find_by_slug(endpoint, str(fm["slug"]))
+        except Exception as e:  # noqa: BLE001
+            print(f"Aviso: no pude revisar {fm['slug']}: {e}")
+            continue
+        estado = item["status"] if item else "no existe"
+        if estado not in ("publish", "future"):
+            print(f"  pendiente: {f.relative_to(ROOT)} (en WordPress: {estado})")
+            out.append(f)
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("files", nargs="*")
     ap.add_argument("--all", action="store_true", help="publicar todo content/")
     ap.add_argument("--check", action="store_true", help="solo validar credenciales")
+    ap.add_argument("--pendientes", action="store_true",
+                    help="publicar las entradas con status publish que no estén en WordPress como publish o future")
     args = ap.parse_args()
 
     wp = WP(env("WP_URL"), env("WP_USER"), env("WP_APP_PASSWORD"))
@@ -284,7 +348,11 @@ def main():
     if args.check:
         return
 
-    files = sorted(CONTENT_DIR.rglob("*.md")) if args.all else [ROOT / f for f in args.files]
+    if args.pendientes:
+        files = pendientes(wp)
+        print(f"Pendientes encontradas: {len(files)}")
+    else:
+        files = sorted(CONTENT_DIR.rglob("*.md")) if args.all else [ROOT / f for f in args.files]
     files = [f for f in files if f.exists() and f.suffix == ".md" and CONTENT_DIR in f.resolve().parents]
     if not files:
         print("Nada que publicar.")
