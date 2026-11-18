@@ -1,13 +1,19 @@
-fecha: 2026-11-18T13:04:47Z
-commit: 5659b119024633c56d0184311f93aae1df458a73
-evento: workflow_dispatch
+fecha: 2026-11-18T13:05:35Z
+commit: 998e68529d0986e7f6ee4cc1ac2dd2441dc21fec
+evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/44309994255
+run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/44310160792
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Argumentos: --check
+Argumentos: content/blog/marketing/marketing-local-para-restaurantes-con-varias-sucursales.md 
 Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
+  = imagen reutilizada: marketing-local-para-restaurantes-con-varias-sucursales (id 891)
+content/blog/marketing/marketing-local-para-restaurantes-con-varias-sucursales.md: post actualizada (publish) id=892 https://www.ubicaweb.com/marketing-local-para-restaurantes-con-varias-sucursales/
+Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
+Métodos de autenticación anunciados: application-passwords
+Entradas publicadas: 130
+Listado diccionario-seo-local: id=502 https://www.ubicaweb.com/diccionario-seo-local/
