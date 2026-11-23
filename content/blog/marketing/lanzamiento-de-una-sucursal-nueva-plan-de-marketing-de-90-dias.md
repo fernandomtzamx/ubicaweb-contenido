@@ -4,7 +4,7 @@ slug: lanzamiento-de-una-sucursal-nueva-plan-de-marketing-de-90-dias
 type: post
 status: publish
 date: 2026-11-24 08:00
-excerpt: "Plan de marketing para abrir una sucursal: qué hacer 90 días antes, en la semana de apertura y en los primeros tres meses para que el mapa y las reseñas no te frenen."
+excerpt: "Plan de marketing para abrir una sucursal: qué hacer 90 días antes, en la semana de apertura y en los primeros tres meses para que el mapa no te frene."
 categories: [marketing-digital-para-franquicias]
 tags: [apertura de sucursal, plan de marketing, franquicias, ficha de Google, reseñas, marketing local]
 portada_titulo: "Sucursal nueva: plan de marketing de 90 días"
