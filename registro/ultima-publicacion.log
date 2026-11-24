@@ -1,19 +1,15 @@
-fecha: 2026-11-23T13:22:53Z
-commit: fd2cc331a86cccf4ea7b848448f39b385ee4fedb
-evento: push
+fecha: 2026-11-24T01:44:18Z
+commit: 12b761cdb94bf1f01847655017ad6d277bfcafff
+evento: schedule
 resultado: success
-run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/45183260495
+run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/45307206713
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Argumentos: content/blog/marketing/lanzamiento-de-una-sucursal-nueva-plan-de-marketing-de-90-dias.md 
+Argumentos: --pendientes
 Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-  = imagen reutilizada: lanzamiento-de-una-sucursal-nueva-plan-de-marketing-de-90-dias (id 898)
-content/blog/marketing/lanzamiento-de-una-sucursal-nueva-plan-de-marketing-de-90-dias.md: post actualizada (future) id=899 https://www.ubicaweb.com/?p=899
-Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
-Métodos de autenticación anunciados: application-passwords
-Entradas publicadas: 131
-Listado diccionario-seo-local: id=502 https://www.ubicaweb.com/diccionario-seo-local/
+Pendientes encontradas: 0
+Nada que publicar.
