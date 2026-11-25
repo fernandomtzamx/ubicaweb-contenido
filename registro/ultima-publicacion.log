@@ -1,15 +1,22 @@
-fecha: 2026-11-25T11:17:27Z
-commit: df6d335e690cf1cdd99df04b3ddb643093393e31
-evento: schedule
+fecha: 2026-11-25T13:18:57Z
+commit: 0da13dd6ece1bedf30a7bd5ddb5ee6842d1b570f
+evento: push
 resultado: success
-run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/45603020592
+run: https://github.com/fernandomtzamx/ubicaweb-contenido/actions/runs/45622268367
 ---
 WP_URL: presente
 WP_USER: presente
 WP_APP_PASSWORD: presente
-Argumentos: --pendientes
+Argumentos: content/blog/sitios-web/como-elegir-dominio-para-una-marca-con-varias-sucursales.md 
 Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
 Métodos de autenticación anunciados: application-passwords
 Conectado como soporte (roles: administrator)
-Pendientes encontradas: 0
-Nada que publicar.
+  + etiqueta creada: dominio
+  + etiqueta creada: páginas por sucursal
+  + etiqueta creada: estructura de url
+  + imagen subida: como-elegir-dominio-para-una-marca-con-varias-sucursales.png (id 901)
+content/blog/sitios-web/como-elegir-dominio-para-una-marca-con-varias-sucursales.md: post creada (future) id=902 https://www.ubicaweb.com/?p=902
+Endpoint: https://www.ubicaweb.com/wp-json/ (HTTP 200)
+Métodos de autenticación anunciados: application-passwords
+Entradas publicadas: 132
+Listado diccionario-seo-local: id=502 https://www.ubicaweb.com/diccionario-seo-local/
